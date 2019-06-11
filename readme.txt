@@ -16,7 +16,7 @@ Managing Websites with MainWP? Your work will get easier & faster with this Tool
 🚀 Quick Access to Your Website Management with MainWP Dashboard directly from your Toolbar. Use the components you want and be faster with your daily or weekly tasks in MainWP.  
 This smart WordPress plugin just adds missed and **very useful admin links** for MainWP Dashboard to your Toolbar / Admin Bar. Save mouse travel and scrolling time. Access updates tasks, your Child Websites, settings and extensions way easier and faster from this one central hub at the top of your Dashboard installation.
 
-I use this Add-On for the past 8 months already and it feels totally natural for MainWP. I am more focused, faster with my daily tasks and I customized all the way I wanted it. Since I am using this MainWP Add-On for Toolbar Extras, I am more than happy and have never looked back! ;-) *-- says David Decker, plugin developer*
+I use this Add-On for more than a half year already and it feels totally natural for MainWP. Now I am more focused, faster with my daily tasks and it is customized all the way I wanted it. Since I am using this MainWP Add-On for Toolbar Extras, I am more than happy and have never looked back! ;-) *-- says David Decker, plugin developer*
 
 ℹ️ **Essential:** Toolbar Extras for MainWP is an **Add-On** plugin, it **requires** the base plugin "Toolbar Extras".  
 ℹ️ **Important:** "MainWP Dashboard" is a **free** plugin for WordPress by MainWP.  
