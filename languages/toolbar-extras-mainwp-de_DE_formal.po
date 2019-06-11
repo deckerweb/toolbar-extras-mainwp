@@ -1,0 +1,2126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Toolbar Extras for MainWP\n"
+"POT-Creation-Date: 2019-06-11 11:52+0200\n"
+"PO-Revision-Date: 2019-06-11 11:52+0200\n"
+"Last-Translator: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
+"Language-Team: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
+"Language: de_DE@formal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: toolbar-extras-mainwp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/admin-extras.php:43
+msgid "First Step: Setup Environment to use the plugin"
+msgstr "Erster Schritt: Umgebung zur Verwendung des Plugins einrichten"
+
+#: includes/admin/admin-extras.php:44
+msgid "First Step: Setup Environment"
+msgstr "Erster Schritt: Umgebung einrichten"
+
+#: includes/admin/admin-extras.php:55 includes/admin/tbexmwp-settings.php:1291
+msgid "MainWP Dashboard"
+msgstr "MainWP Dashboard"
+
+#: includes/admin/admin-extras.php:56
+msgid "My MainWP"
+msgstr "Mein MainWP"
+
+#: includes/admin/admin-extras.php:62
+msgid "Toolbar Settings for MainWP"
+msgstr "Toolbar-Einstellungen für MainWP"
+
+#: includes/admin/admin-extras.php:63
+msgid "Toolbar Settings"
+msgstr "Toolbar-Einstellungen"
+
+#: includes/admin/admin-extras.php:116
+msgctxt "Plugins page listing"
+msgid "Support"
+msgstr "Support"
+
+#: includes/admin/admin-extras.php:124
+msgctxt "Plugins page listing"
+msgid "Facebook Group"
+msgstr "Facebook-Gruppe"
+
+#: includes/admin/admin-extras.php:131
+msgctxt "Plugins page listing"
+msgid "Translations"
+msgstr "Übersetzungen"
+
+#: includes/admin/admin-extras.php:139
+msgctxt "Plugins page listing"
+msgid "Donate"
+msgstr "Spenden"
+
+#: includes/admin/admin-extras.php:146
+msgctxt "Plugins page listing"
+msgid "Join our Newsletter"
+msgstr "Newsletter jetzt!"
+
+#. translators: %s - 5 stars icons
+#: includes/admin/admin-extras.php:192
+#, php-format
+msgid "%s rating"
+msgstr "%s Bewertung"
+
+#. translators: 1 - Toolbar Extras for MainWP / 2 - label "5 star rating"
+#: includes/admin/admin-extras.php:198
+#, php-format
+msgid ""
+"Enjoyed %1$s? Please leave us a %2$s. We really appreciate your support!"
+msgstr ""
+"Gefällt Ihnen %1$s? Dann geben Sie uns bitte eine %2$s. Wir schätzen Ihre "
+"Unterstützung!"
+
+#. Plugin Name of the plugin/theme
+#: includes/admin/admin-extras.php:199 includes/admin/tbexmwp-settings.php:1285
+#: includes/admin/views/help-content-addon.php:32
+#: includes/admin/views/help-content-addon.php:60 uninstall.php:42
+#: uninstall.php:52
+msgid "Toolbar Extras for MainWP"
+msgstr "Toolbar Extras für MainWP"
+
+#: includes/admin/admin-extras.php:232
+msgid "Toolbar Extras for MainWP Dashboard"
+msgstr "Toolbar Extras für MainWP Dashboard"
+
+#: includes/admin/admin-extras.php:232
+msgid "Add-On Plugin"
+msgstr "Add-On-Plugin"
+
+#: includes/admin/admin-extras.php:238
+msgid "Add-On Plugin version"
+msgstr "Add-On Plugin-Version"
+
+#: includes/admin/admin-extras.php:242
+msgid "Required Base Plugin version"
+msgstr "Erforderliche Version des Basis-Plugins"
+
+#: includes/admin/admin-extras.php:246
+msgid "Item title Child Websites"
+msgstr "Element-Titel Child-Websites"
+
+#: includes/admin/admin-extras.php:250
+msgid "For Child Websites, list all Child Sites"
+msgstr "Für Child-Websites, alle Child-Websites auflisten"
+
+#: includes/admin/admin-extras.php:254
+msgid "For Child Websites, list Groups"
+msgstr "Für Child-Websites, Gruppen auflisten"
+
+#: includes/admin/admin-extras.php:258
+msgid "For Child Websites, list Statuses"
+msgstr "Für Child-Websites, Status auflisten"
+
+#: includes/admin/admin-extras.php:262
+msgid "Remove Build Group"
+msgstr "Erschaffen-Gruppe entfernen"
+
+#: includes/admin/admin-extras.php:266
+msgid "Remove Manage Content Items"
+msgstr "Inhalte-Verwalten-Elemente entfernen"
+
+#: includes/admin/admin-extras.php:270
+msgid "Remove WP Widget Items"
+msgstr "WP-Widgets-Elemente entfernen"
+
+#: includes/admin/admin-extras.php:274
+msgid "Remove WP Comments Item"
+msgstr "WP-Kommentare-Element entfernen"
+
+#: includes/admin/admin-extras.php:278
+msgid "Remove Site Group"
+msgstr "Website-Gruppe entfernen"
+
+#: includes/admin/admin-extras.php:282
+msgid "Remove WP Updates Item"
+msgstr "WP-Updates-Element entfernen"
+
+#: includes/admin/admin-extras.php:286
+msgid "Remove WP New Content Group"
+msgstr "WP Neue Inhalte-Gruppe entfernen"
+
+#: includes/admin/admin-extras.php:290
+msgid "Remove Reusable Blocks Admin Menu"
+msgstr "Adminmenü für Wiederverwendbare Blöcke entfernen"
+
+#: includes/admin/admin-help.php:62
+msgid "Add-On: MainWP"
+msgstr "Add-On: MainWP"
+
+#: includes/admin/tbexmwp-settings.php:37 includes/string-switcher.php:29
+msgctxt "MainWP component title"
+msgid "My MainWP"
+msgstr "Mein MainWP"
+
+#: includes/admin/tbexmwp-settings.php:42 includes/items-mainwp.php:246
+#: includes/string-switcher.php:32
+msgctxt "MainWP component title"
+msgid "Updates"
+msgstr "Updates"
+
+#: includes/admin/tbexmwp-settings.php:47 includes/string-switcher.php:35
+msgctxt "MainWP component title"
+msgid "Add"
+msgstr "Neu"
+
+#: includes/admin/tbexmwp-settings.php:53 includes/string-switcher.php:38
+#: includes/string-switcher.php:233
+msgctxt "MainWP component title"
+msgid "Websites"
+msgstr "Websites"
+
+#: includes/admin/tbexmwp-settings.php:61 includes/string-switcher.php:41
+msgctxt "MainWP component title"
+msgid "Content"
+msgstr "Inhalte"
+
+#: includes/admin/tbexmwp-settings.php:66 includes/items-mainwp.php:779
+#: includes/string-switcher.php:44
+msgctxt "MainWP component title"
+msgid "Plugins"
+msgstr "Plugins"
+
+#: includes/admin/tbexmwp-settings.php:71 includes/items-mainwp.php:886
+#: includes/string-switcher.php:47
+msgctxt "MainWP component title"
+msgid "Themes"
+msgstr "Themes"
+
+#: includes/admin/tbexmwp-settings.php:76 includes/items-mainwp.php:993
+#: includes/string-switcher.php:50
+msgctxt "MainWP component title"
+msgid "Users"
+msgstr "Benutzer"
+
+#: includes/admin/tbexmwp-settings.php:81 includes/mainwp-extensions.php:366
+#: includes/string-switcher.php:53
+msgctxt "MainWP component title"
+msgid "Extensions"
+msgstr "Erweiterungen"
+
+#: includes/admin/tbexmwp-settings.php:86 includes/items-mainwp.php:1095
+#: includes/string-switcher.php:56
+msgctxt "MainWP component title"
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/admin/tbexmwp-settings.php:91 includes/string-switcher.php:59
+msgctxt "MainWP component title"
+msgid "Server Info"
+msgstr "Server-Info"
+
+#: includes/admin/tbexmwp-settings.php:161
+msgid "MainWP Components as Toolbar Items"
+msgstr "MainWP-Komponenten als Toolbar-Links"
+
+#: includes/admin/tbexmwp-settings.php:354
+msgid "What title to display for the Websites component?"
+msgstr "Welcher Titel soll für die Websites-Komponente angezeigt werden?"
+
+#: includes/admin/tbexmwp-settings.php:392
+msgid "List all Child Sites as sub items of Websites?"
+msgstr "Alle Child Websites als Untermenü von „Websites“ auflisten?"
+
+#: includes/admin/tbexmwp-settings.php:404
+msgid "List all Groups as sub items of Websites?"
+msgstr "Alle Gruppen als Untermenü von „Websites“ auflisten?"
+
+#: includes/admin/tbexmwp-settings.php:416
+msgid "List all Statuses as sub items of Websites?"
+msgstr "Alle Status als Untermenü von „Websites“ auflisten?"
+
+#: includes/admin/tbexmwp-settings.php:799
+msgid "Various Tweaks"
+msgstr "Verschiedene Anpassungen"
+
+#: includes/admin/tbexmwp-settings.php:806
+msgid "Set background color, icon and special text for Toolbar"
+msgstr ""
+"Hintergrundfarbe, Icon und speziellen Text für die Symbolleiste festlegen"
+
+#: includes/admin/tbexmwp-settings.php:815
+#, php-format
+msgid "Remove %s Group from Toolbar Extras?"
+msgstr "Die %s-Gruppe von Toolbar Extras entfernen?"
+
+#: includes/admin/tbexmwp-settings.php:815
+msgid "Build"
+msgstr "Erschaffen"
+
+#: includes/admin/tbexmwp-settings.php:824
+msgid "Remove Manage Content items from Toolbar Extras?"
+msgstr "Die Inhalte-Verwalten-Links von Toolbar Extras entfernen?"
+
+#: includes/admin/tbexmwp-settings.php:833
+msgid "Remove WP Widgets items from Toolbar Extras?"
+msgstr "WP Widgets-Links von Toolbar Extras entfernen?"
+
+#: includes/admin/tbexmwp-settings.php:842
+msgid "Remove Comments Item (WordPress default)?"
+msgstr "Den Kommentar-Link (WordPress-Standard) entfernen?"
+
+#: includes/admin/tbexmwp-settings.php:851
+msgid "Remove Site Group (WordPress default)?"
+msgstr "Website-Gruppe (WordPress-Standard) entfernen?"
+
+#: includes/admin/tbexmwp-settings.php:860
+msgid "Remove Updates Item (WordPress default)?"
+msgstr "Updates-Link (WordPress-Standard) entfernen?"
+
+#: includes/admin/tbexmwp-settings.php:869
+msgid "Remove New Content Group (WordPress default)?"
+msgstr "Neue Inhalte-Gruppe (WordPress-Standard) entfernen?"
+
+#. translators: %s - label, "Blocks"
+#: includes/admin/tbexmwp-settings.php:879
+#, php-format
+msgid "Remove Left-hand %s Admin Menu?"
+msgstr "Linkes %s-Adminmenü entfernen?"
+
+#: includes/admin/tbexmwp-settings.php:879
+msgid "Blocks"
+msgstr "Blöcke"
+
+#: includes/admin/tbexmwp-settings.php:888
+msgid "Unload all MainWP Translations?"
+msgstr "Alle Übersetzungen von MainWP nicht laden?"
+
+#: includes/admin/tbexmwp-settings.php:897
+msgid "Unload Toolbar Extras for MainWP Add-On Translations?"
+msgstr "Übersetzungen von Toolbar Extras für MainWP nicht laden?"
+
+#. translators: Settings tab title in WP-Admin
+#: includes/admin/tbexmwp-settings.php:1118
+#: includes/admin/tbexmwp-settings.php:1343
+msgctxt "Plugin settings tab title"
+msgid "MainWP"
+msgstr "MainWP"
+
+#: includes/admin/tbexmwp-settings.php:1174
+msgctxt "Admin menu title"
+msgid "MainWP Toolbar"
+msgstr "MainWP-Toolbar"
+
+#: includes/admin/tbexmwp-settings.php:1175
+msgctxt "Admin menu title"
+msgid "MainWP Plugins"
+msgstr "MainWP-Plugins"
+
+#: includes/admin/tbexmwp-settings.php:1197
+msgctxt "MainWP admin menu title"
+msgid "Toolbar for MainWP"
+msgstr "Toolbar für MainWP"
+
+#: includes/admin/tbexmwp-settings.php:1225
+msgctxt "MainWP admin menu title"
+msgid "Site Health"
+msgstr "Website-Status"
+
+#: includes/admin/tbexmwp-settings.php:1232
+msgctxt "MainWP admin menu title"
+msgid "Debug Info"
+msgstr "Debug-Informationen"
+
+#: includes/admin/tbexmwp-settings.php:1264
+msgctxt "MainWP admin menu title"
+msgid "Activity Log"
+msgstr "Aktivitätsprotokolle"
+
+#: includes/admin/tbexmwp-settings.php:1285
+msgid "Add-On"
+msgstr "Add-On"
+
+#: includes/admin/tbexmwp-settings.php:1290
+#, php-format
+msgid ""
+"This Add-On brings the components of the %s to your Toolbar, including "
+"current active MainWP Add-Ons."
+msgstr ""
+"Dieses Toolbar-Add-On bringt die Komponenten des %s in Ihre Toolbar "
+"(Adminbar, Werkzeugleiste), einschließlich der aktuell aktiven MainWP Add-"
+"Ons (Zusatzmodule)."
+
+#: includes/admin/tbexmwp-settings.php:1293
+msgid ""
+"Below you will find plenty of settings to customize your experience to "
+"manage your websites with MainWP even faster."
+msgstr ""
+"Nachfolgend finden Sie viele Einstellungen, mit denen Sie Ihre "
+"Benutzererfahrung anpassen können, um Ihre Websites mit MainWP noch "
+"schneller zu verwalten."
+
+#: includes/admin/tbexmwp-settings.php:1316
+msgctxt "For Toolbar Extras Plugin"
+msgid "MainWP Add-On"
+msgstr "MainWP Add-On"
+
+#. translators: Title attribute for Toolbar Extras "MainWP Add-On" settings link
+#: includes/admin/tbexmwp-settings.php:1321
+msgctxt "For Toolbar Extras Plugin"
+msgid "MainWP Dashboard Add-On for Toolbar Extras"
+msgstr "MainWP Dashboard Add-On für Toolbar Extras"
+
+#: includes/admin/tbexmwp-settings.php:1342
+msgid "Go to the Toolbar Extras MainWP Add-On settings tab"
+msgstr "Gehen Sie zum Toolbar Extras Einstellungen-Tab „MainWP Add-On“"
+
+#: includes/admin/tbexmwp-settings.php:1366
+msgid "MainWP Green"
+msgstr "MainWP Grün"
+
+#: includes/admin/views/help-content-addon.php:32
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/admin/views/help-content-addon.php:36
+msgid ""
+"General recommendation is to use MainWP Dashboard plugin on a single "
+"WordPress install which is only used for managing your websites via MainWP. "
+"For such a setup this Toolbar Extras Add-On is perfectly suited."
+msgstr ""
+"Die allgemeine Empfehlung ist die Verwendung des MainWP Dashboard Plugins in "
+"einer regulären Single-WordPress Installation, die nur für die Verwaltung "
+"Ihrer Websites mit MainWP verwendet wird. Für ein solches Setup ist dieses "
+"Toolbar Extras Add-On perfekt geeignet."
+
+#: includes/admin/views/help-content-addon.php:41
+msgid "plugins suggestions manager"
+msgstr "Pluginvorschläge-Manager"
+
+#: includes/admin/views/help-content-addon.php:47
+#, php-format
+msgid ""
+"To further protect your Dashboard Site it is recommended to tweak a few more "
+"things: completely disable comments, restrict the install to login only, and "
+"also to protect the login form itself. These are basic security tasks "
+"anyways. Great plugins for that are %1$s, %2$s and %3$s. Easily install and "
+"activate them via our %4$s if not already done (or using similar "
+"alternatives)."
+msgstr ""
+"Um Ihre Dashboard-Installation weiter zu schützen, wird empfohlen, noch ein "
+"paar weitere Dinge zu optimieren: Kommentare vollständig zu deaktivieren, "
+"nur Zugriff mit Login zu ermöglichen und auch das Anmeldeformular selbst zu "
+"schützen. Das sind sowieso grundlegende Sicherheitsaufgaben. Tolle Plugins "
+"dafür sind %1$s, %2$s und %3$s. Installieren und aktivieren Sie diese "
+"einfach über unseren %4$s, falls noch nicht geschehen (oder nutzen Sie "
+"ähnliche Alternativen)."
+
+#: includes/admin/views/help-content-addon.php:59
+#, php-format
+msgid ""
+"Please note, the %1$s Add-On plugin is not officially endorsed by %2$s. It "
+"is an independently developed solution by the community for the community. "
+"Therefore our support is connected to the Add-On itself, to the Toolbar and "
+"the things around it, not the inner meanings of %2$s."
+msgstr ""
+"Bitte beachten Sie, dass das %1$s Add-On Plugin nicht offiziell von %2$s "
+"unterstützt wird. Es ist eine unabhängig entwickelte Lösung von der "
+"Community, für die Community. Daher gilt unser Support nur dem Add-On "
+"selbst, damit zusammenhängend der Toolbar und den damit verbundenen Dingen, "
+"nicht jedoch den inneren Zusammenhängen von %2$s."
+
+#: includes/admin/views/help-content-addon.php:61
+msgid "MainWP"
+msgstr "MainWP"
+
+#: includes/admin/views/help-content-addon.php:65
+msgid "Important plugin links:"
+msgstr "Wichtige Plugin-Links:"
+
+#: includes/admin/views/help-content-addon.php:67
+msgid "Plugin website"
+msgstr "Plugin-Website"
+
+#: includes/admin/views/help-content-addon.php:71
+msgctxt "Help tab info"
+msgid "FAQ"
+msgstr "FAQ - Häufige Fragen"
+
+#: includes/admin/views/help-content-addon.php:78
+msgctxt "Help tab info"
+msgid "Support"
+msgstr "Support"
+
+#: includes/admin/views/help-content-addon.php:85
+msgctxt "Help tab info"
+msgid "Facebook Group"
+msgstr "Facebook-Gruppe"
+
+#: includes/admin/views/help-content-addon.php:91
+msgctxt "Help tab info"
+msgid "Translations"
+msgstr "Übersetzungen"
+
+#: includes/admin/views/help-content-addon.php:98
+msgctxt "Help tab info"
+msgid "Donate"
+msgstr "Spenden"
+
+#: includes/admin/views/help-content-addon.php:104
+msgctxt "Help tab info"
+msgid "Join our Newsletter"
+msgstr "Newsletter jetzt!"
+
+#: includes/admin/views/settings-tab-mainwp.php:29
+msgid ""
+"Decide which components of the MainWP Dashboard you want to show as separate "
+"top-level items (groups) in the Toolbar."
+msgstr ""
+"Legen Sie fest, welche Komponenten des MainWP Dashboards Sie als separate "
+"Links (Gruppen) in der obersten Ebene der Toolbar anzeigen wollen."
+
+#: includes/admin/views/settings-tab-mainwp.php:45
+msgid ""
+"Set which additional WordPress core items should be removed or displayed, "
+"plus some other optional tweaks."
+msgstr ""
+"Legen Sie fest, welche zusätzlichen WordPress Core-Elemente entfernt oder "
+"angezeigt werden sollen, plus einige weitere optionale Anpassungen."
+
+#. translators: %s - a Dashicons CSS class name
+#: includes/admin/views/settings-tab-mainwp.php:84
+#: includes/admin/views/settings-tab-mainwp.php:160
+#: includes/admin/views/settings-tab-mainwp.php:216
+#: includes/admin/views/settings-tab-mainwp.php:259
+#: includes/admin/views/settings-tab-mainwp.php:313
+#: includes/admin/views/settings-tab-mainwp.php:339
+#: includes/admin/views/settings-tab-mainwp.php:370
+#: includes/admin/views/settings-tab-mainwp.php:401
+#: includes/admin/views/settings-tab-mainwp.php:429
+#: includes/admin/views/settings-tab-mainwp.php:454
+#: includes/admin/views/settings-tab-mainwp.php:479
+#: includes/admin/views/settings-tab-mainwp.php:504
+#: includes/admin/views/settings-tab-mainwp.php:529
+#: includes/admin/views/settings-tab-mainwp.php:554
+#: includes/admin/views/settings-tab-mainwp.php:579
+#: includes/admin/views/settings-tab-mainwp.php:604
+#: includes/admin/views/settings-tab-mainwp.php:629
+#: includes/admin/views/settings-tab-mainwp.php:664
+#, php-format
+msgid "Default: %s"
+msgstr "Standard: %s"
+
+#. translators: %s - a Dashicons CSS class name
+#: includes/admin/views/settings-tab-mainwp.php:153
+#, php-format
+msgid "Current: %s"
+msgstr "Aktuell: %s"
+
+#: includes/admin/views/settings-tab-mainwp.php:171
+msgid "Choose Icon"
+msgstr "Icon auswählen"
+
+#. translators: %s - Counter and Website (1 Website OR 2 Websites)
+#: includes/admin/views/settings-tab-mainwp.php:296
+#, php-format
+msgid "Counter &amp; Title: %s"
+msgstr "Zähler &amp; Titel: %s"
+
+#. translators: %s - String "Websites"
+#: includes/admin/views/settings-tab-mainwp.php:302
+#, php-format
+msgid "Title only: %s"
+msgstr "Nur Titel: %s"
+
+#: includes/admin/views/settings-tab-mainwp.php:310
+msgid "Your own custom name"
+msgstr "Einen eigenen Namen festlegen"
+
+#: includes/admin/views/settings-tab-mainwp.php:342
+msgid ""
+"Enabling this feature gives you quick jump links for all your currently "
+"managed websites within MainWP: go to the site settings in MainWP, or just "
+"visit the site's own WP-Admin Dashboard, or easily visit the site's homepage."
+msgstr ""
+"Wenn Sie diese Funktion aktivieren, erhalten Sie Schnellzugriffslinks für "
+"alle Ihre aktuell verwalteten Websites in MainWP: Gehen Sie zu den Website-"
+"Einstellungen in MainWP, oder besuchen Sie einfach das jeweilige WP-Admin-"
+"Dashboard der Website oder gehen Sie einfach zur Homepage der entsprechenden "
+"Website."
+
+#: includes/admin/views/settings-tab-mainwp.php:345
+msgid ""
+"Note: If you have many child sites set up this will result in a very long "
+"list of sub items. In that case you maybe want to disable this feature here."
+msgstr ""
+"Hinweis: Wenn Sie viele Child-Websites eingerichtet haben, führt dies zu "
+"einer sehr langen Liste als Untermenü. In diesem Fall kann es sinnvoll sein, "
+"diese Funktion hier zu deaktivieren."
+
+#: includes/admin/views/settings-tab-mainwp.php:373
+msgid ""
+"Enabling this feature gives you quick jump links for all groups you have "
+"setup within MainWP: this helps filtering your list of websites (child "
+"sites)."
+msgstr ""
+"Wenn Sie diese Funktion aktivieren, erhalten Sie Schnellzugriffslinks für "
+"alle Gruppen, die Sie in MainWP eingerichtet haben: dies hilft die Liste "
+"Ihrer Websites besser zu filtern."
+
+#: includes/admin/views/settings-tab-mainwp.php:376
+msgid ""
+"Note: If you have many groups set up this will result in a very long list of "
+"sub items. In that case you maybe want to disable this feature here."
+msgstr ""
+"Hinweis: Wenn Sie viele Gruppen eingerichtet haben, führt dies zu einer sehr "
+"langen Liste als Untermenü. In diesem Fall kann es sinnvoll sein, diese "
+"Funktion hier zu deaktivieren."
+
+#: includes/admin/views/settings-tab-mainwp.php:404
+msgid ""
+"Enabling this feature gives you quick jump links for all statuses within "
+"MainWP: this helps filtering your list of websites (child sites)."
+msgstr ""
+"Wenn Sie diese Funktion aktivieren, erhalten Sie Schnellzugriffslinks für "
+"alle Status in MainWP: dies hilft die Liste Ihrer Websites besser zu filtern."
+
+#: includes/admin/views/settings-tab-mainwp.php:632
+msgid ""
+"This tweak unloads the translations for MainWP Dashboard, plus all current "
+"active MainWP Add-Ons. So all strings fall back to their English default "
+"strings."
+msgstr ""
+"Diese Anpassung verhindert das Laden der Übersetzungen für das MainWP "
+"Dashboard, plus aller derzeit aktiven MainWP Add-Ons. Somit werden "
+"automatisch die englischsprachigen Original-Strings geladen."
+
+#. translators: %s - text domain strings, for example 'mainwp'
+#: includes/admin/views/settings-tab-mainwp.php:637
+#, php-format
+msgid "Effected text domains: %s"
+msgstr "Betroffene Textdomains: %s"
+
+#: includes/admin/views/settings-tab-mainwp.php:638
+msgid "plus those from active add-ons"
+msgstr "plus die von aktiven Add-ons"
+
+#: includes/admin/views/settings-tab-mainwp.php:667
+msgid ""
+"This tweak unloads the translations for Toolbar Extras for MainWP Add-On, so "
+"it falls back to the English default strings."
+msgstr ""
+"Diese Anpassung verhindert das Laden der Übersetzungen für das Toolbar "
+"Extras für MainWP Add-On, somit werden automatisch die englischsprachigen "
+"Original-Strings geladen."
+
+#. translators: %s - a text domain string, 'toolbar-extras-mainwp'
+#: includes/admin/views/settings-tab-mainwp.php:672
+#, php-format
+msgid "Effected text domain: %s"
+msgstr "Betroffene Textdomain: %s"
+
+#: includes/extensions/items-activity-log.php:37
+#: includes/extensions/items-activity-log.php:41
+#: includes/extensions/items-activity-log.php:165
+#: includes/functions-global.php:220 includes/functions-global.php:228
+msgid "Activity Logs"
+msgstr "Aktivitätsprotokolle"
+
+#: includes/extensions/items-activity-log.php:56
+#: includes/extensions/items-activity-log.php:60
+msgid "All Logs"
+msgstr "Alle Protokolle"
+
+#: includes/extensions/items-activity-log.php:69
+#: includes/extensions/items-activity-log.php:73
+msgid "MainWP Dashboard Logs"
+msgstr "MainWP Dashboard Protokolle"
+
+#: includes/extensions/items-activity-log.php:89
+#: includes/extensions/items-activity-log.php:93
+#: includes/extensions/items-backupbuddy.php:102
+#: includes/extensions/items-backupbuddy.php:106
+#: includes/extensions/items-branding.php:51
+#: includes/extensions/items-broken-links-checker.php:129
+#: includes/extensions/items-clone.php:51
+#: includes/extensions/items-clone.php:55
+#: includes/extensions/items-favorites.php:77
+#: includes/extensions/items-ithemes-security.php:63
+#: includes/extensions/items-ithemes-security.php:67
+#: includes/extensions/items-page-speed.php:63
+#: includes/extensions/items-page-speed.php:67
+#: includes/extensions/items-updraftplus.php:89
+#: includes/extensions/items-updraftplus.php:93
+#: includes/extensions/items-wpstaging.php:64
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/extensions/items-activity-log.php:143
+msgid "Official Extension Website"
+msgstr "Offizielle Website der Erweiterung"
+
+#: includes/extensions/items-activity-log.php:169
+msgid "Dashboard Activity Logs"
+msgstr "Dashboard Aktivitätsprotokolle"
+
+#: includes/extensions/items-activity-log.php:227
+#: includes/extensions/items-activity-log.php:231
+msgid "Child Sites"
+msgstr "Child-Websites"
+
+#: includes/extensions/items-backupbuddy.php:37
+#: includes/extensions/items-backupbuddy.php:41
+msgid "BackupBuddy"
+msgstr "BackupBuddy"
+
+#: includes/extensions/items-backupbuddy.php:50
+#: includes/extensions/items-backupbuddy.php:54
+#: includes/extensions/items-backupwordpress.php:51
+#: includes/extensions/items-backupwordpress.php:55
+#: includes/extensions/items-client-reports.php:51
+#: includes/extensions/items-client-reports.php:55
+#: includes/extensions/items-ithemes-security.php:50
+#: includes/extensions/items-ithemes-security.php:54
+#: includes/extensions/items-time-capsule.php:51
+#: includes/extensions/items-time-capsule.php:55
+#: includes/extensions/items-updraftplus.php:50
+#: includes/extensions/items-updraftplus.php:54
+#: includes/extensions/items-wordfence.php:51
+#: includes/extensions/items-wordfence.php:55
+msgid "Overview"
+msgstr "Übersicht"
+
+#: includes/extensions/items-backupbuddy.php:63
+#: includes/extensions/items-backupbuddy.php:67
+msgid "Backup"
+msgstr "Backup"
+
+#: includes/extensions/items-backupbuddy.php:76
+#: includes/extensions/items-backupbuddy.php:80
+msgid "Remote Destinations"
+msgstr "Entfernte Ziele"
+
+#: includes/extensions/items-backupbuddy.php:89
+#: includes/extensions/items-backupbuddy.php:93
+#: includes/extensions/items-backupwordpress.php:64
+#: includes/extensions/items-backupwordpress.php:68
+msgid "Schedules"
+msgstr "Zeitpläne"
+
+#: includes/extensions/items-backupwordpress.php:38
+#: includes/extensions/items-backupwordpress.php:42
+msgid "BackupUpWordPress"
+msgstr "BackupUpWordPress"
+
+#: includes/extensions/items-backupwordpress.php:77
+#: includes/extensions/items-backupwordpress.php:81
+msgid "Backups"
+msgstr "Backups"
+
+#: includes/extensions/items-backwpup.php:37
+#: includes/extensions/items-backwpup.php:41
+msgid "BackWPup Backups"
+msgstr "BackWPup Backups"
+
+#: includes/extensions/items-backwpup.php:50
+#: includes/extensions/items-broken-links-checker.php:116
+#: includes/extensions/items-broken-links-checker.php:120
+#: includes/extensions/items-wprocket.php:50
+#: includes/extensions/items-wprocket.php:54 includes/items-mainwp.php:59
+#: includes/items-mainwp.php:63
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: includes/extensions/items-backwpup.php:54
+msgid "BackWPup Dashboard"
+msgstr "BackWPup Dashboard"
+
+#: includes/extensions/items-backwpup.php:63
+msgid "Backup Jobs"
+msgstr "Backup-Aufträge"
+
+#: includes/extensions/items-backwpup.php:67
+msgid "Existing Backup Jobs"
+msgstr "Bestehende Backup-Aufträge"
+
+#: includes/extensions/items-backwpup.php:76
+#: includes/extensions/items-backwpup.php:80
+#: includes/extensions/items-updraftplus.php:76
+#: includes/extensions/items-updraftplus.php:80
+msgid "Existing Backups"
+msgstr "Bestehende Backups"
+
+#: includes/extensions/items-backwpup.php:89
+#: includes/extensions/items-backwpup.php:93
+msgid "Backup Settings"
+msgstr "Datensicherungs-Einstellungen"
+
+#: includes/extensions/items-branding.php:38
+#: includes/extensions/items-branding.php:42
+msgid "Branding"
+msgstr "Branding"
+
+#: includes/extensions/items-branding.php:55
+msgid "Branding Settings"
+msgstr "Branding Einstellungen"
+
+#: includes/extensions/items-broken-links-checker.php:38
+#: includes/extensions/items-broken-links-checker.php:42
+msgid "Broken Links Checker"
+msgstr "Broken Links Checker"
+
+#: includes/extensions/items-broken-links-checker.php:51
+msgid "Broken Links"
+msgstr "Fehlerhafte Links"
+
+#: includes/extensions/items-broken-links-checker.php:55
+#: includes/extensions/items-broken-links-checker.php:68
+msgid "Found Broken Links"
+msgstr "Gefundene fehlerhafte Links"
+
+#: includes/extensions/items-broken-links-checker.php:64
+msgid "Broken"
+msgstr "Fehlerhaft"
+
+#: includes/extensions/items-broken-links-checker.php:77
+msgid "Redirects"
+msgstr "Weiterleitungen"
+
+#: includes/extensions/items-broken-links-checker.php:81
+msgid "Found Broken Links: Redirects"
+msgstr "Gefundene fehlerhafte Links: Weiterleitungen"
+
+#: includes/extensions/items-broken-links-checker.php:90
+msgid "Dismissed"
+msgstr "Verworfen"
+
+#: includes/extensions/items-broken-links-checker.php:94
+msgid "Found Broken Links: Dismissed"
+msgstr "Gefundene fehlerhafte Links: Verworfene"
+
+#: includes/extensions/items-broken-links-checker.php:103
+#: includes/extensions/items-links-manager.php:51
+#: includes/extensions/items-links-manager.php:55
+msgid "All Links"
+msgstr "Alle Links"
+
+#: includes/extensions/items-broken-links-checker.php:107
+msgid "Found Broken Links: All Links"
+msgstr "Gefundene fehlerhafte Links: Alle Links"
+
+#: includes/extensions/items-broken-links-checker.php:133
+msgid "Broken Link Checker Settings"
+msgstr "Broken Link Checker Einstellungen"
+
+#: includes/extensions/items-clean-and-lock.php:38
+#: includes/extensions/items-clean-and-lock.php:42
+msgid "Clean and Lock"
+msgstr "Sauber und abgesichert"
+
+#: includes/extensions/items-clean-and-lock.php:51
+#: includes/extensions/items-clean-and-lock.php:55
+#: includes/extensions/items-google-analytics.php:51
+#: includes/extensions/items-matomo.php:51
+msgid "Setup"
+msgstr "Einrichten"
+
+#: includes/extensions/items-client-reports.php:38
+#: includes/extensions/items-client-reports.php:42
+msgid "Client Reports"
+msgstr "Kundenberichte"
+
+#: includes/extensions/items-client-reports.php:64
+#: includes/extensions/items-client-reports.php:68
+msgid "New Report"
+msgstr "Neuer Bericht"
+
+#: includes/extensions/items-client-reports.php:119
+#: includes/extensions/items-client-reports.php:123
+msgid "New Client Report"
+msgstr "Neuer Kundenbericht"
+
+#: includes/extensions/items-clone.php:38
+msgid "Clone"
+msgstr "Klonen"
+
+#: includes/extensions/items-clone.php:42
+msgid "Clone Sites"
+msgstr "Websites klonen"
+
+#: includes/extensions/items-code-snippets.php:44
+#: includes/extensions/items-code-snippets.php:48
+msgid "Code Snippets"
+msgstr "Code-Snippets"
+
+#: includes/extensions/items-code-snippets.php:77
+msgid "Edit Snippet"
+msgstr "Snippet bearbeiten"
+
+#: includes/extensions/items-code-snippets.php:90
+msgid "Manage Snippets"
+msgstr "Websites verwalten"
+
+#: includes/extensions/items-code-snippets.php:94
+msgid "Manage Snippets - Bulk Actions"
+msgstr "Snippets verwalten - Massenaktionen"
+
+#: includes/extensions/items-code-snippets.php:145
+#: includes/extensions/items-code-snippets.php:149
+msgid "New Code Snippet"
+msgstr "Neues Code-Snippet"
+
+#: includes/extensions/items-comments.php:38
+msgid "Comments"
+msgstr "Kommentare"
+
+#: includes/extensions/items-comments.php:42
+msgid "Comments Bulk Actions"
+msgstr "Kommentare-Mehrfachaktionen"
+
+#: includes/extensions/items-comments.php:51
+msgid "Manage Comments"
+msgstr "Kommentare verwalten"
+
+#: includes/extensions/items-comments.php:55
+msgid "Manage Comments - Bulk Actions"
+msgstr "Kommentare verwalten - Massenaktionen"
+
+#: includes/extensions/items-favorites.php:38
+#: includes/extensions/items-favorites.php:42
+msgid "Favorites"
+msgstr "Favoriten"
+
+#: includes/extensions/items-favorites.php:51
+msgid "Plugins"
+msgstr "Plugins"
+
+#: includes/extensions/items-favorites.php:55
+msgid "Favorite Plugins"
+msgstr "Favorisierte Plugins"
+
+#: includes/extensions/items-favorites.php:64
+msgid "Themes"
+msgstr "Themes"
+
+#: includes/extensions/items-favorites.php:68
+msgid "Favorite Themes"
+msgstr "Favorisierte Themes"
+
+#: includes/extensions/items-favorites.php:81
+msgid "Favorites Settings"
+msgstr "Favoriten-Einstellungen"
+
+#: includes/extensions/items-file-uploader.php:38
+msgid "File Uploader"
+msgstr "Datei-Upload"
+
+#: includes/extensions/items-file-uploader.php:42
+msgid "File Upload Manager"
+msgstr "Datei-Upload-Manager"
+
+#: includes/extensions/items-file-uploader.php:51
+msgid "Upload File"
+msgstr "Datei hochladen"
+
+#: includes/extensions/items-file-uploader.php:55
+msgid "File Upload - Bulk Actions"
+msgstr "Datei-Upload - Massenaktionen"
+
+#: includes/extensions/items-file-uploader.php:106
+#: includes/extensions/items-file-uploader.php:110
+msgid "New File Upload"
+msgstr "Neuer Datei-Upload"
+
+#: includes/extensions/items-google-analytics.php:38
+#: includes/extensions/items-google-analytics.php:42
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: includes/extensions/items-google-analytics.php:55
+msgid "Google Analytics Setup"
+msgstr "Einrichtung von Google Analytics"
+
+#: includes/extensions/items-ithemes-security.php:37
+#: includes/extensions/items-ithemes-security.php:41
+msgid "iThemes Security"
+msgstr "iThemes Security"
+
+#: includes/extensions/items-ithemes-security.php:76
+#: includes/extensions/items-ithemes-security.php:80
+msgid "Logs"
+msgstr "Protokolle"
+
+#: includes/extensions/items-links-manager.php:38
+msgid "Links Manager"
+msgstr "Links-Manager"
+
+#: includes/extensions/items-links-manager.php:42
+msgid "Manage External and Internal Links"
+msgstr "Externe und interne Links verwalten"
+
+#: includes/extensions/items-maintenance.php:38
+msgid "Maintenance"
+msgstr "Wartung"
+
+#: includes/extensions/items-maintenance.php:42
+msgid "Maintenance Tasks &amp; Settings"
+msgstr "Wartungsaufgaben &amp; Einstellungen"
+
+#: includes/extensions/items-maintenance.php:51
+msgid "Run Now"
+msgstr "Jetzt ausführen"
+
+#: includes/extensions/items-maintenance.php:55
+msgid "Run Maintenance Tasks Now for selected Child Sites"
+msgstr "Wartungsaufgaben jetzt für ausgewählte Child-Websites ausführen"
+
+#: includes/extensions/items-maintenance.php:64
+msgid "New Schedule"
+msgstr "Neuer Zeitplan"
+
+#: includes/extensions/items-maintenance.php:68
+msgid "Setup New Maintenance Schedule"
+msgstr "Neuen Wartungsplan einrichten"
+
+#: includes/extensions/items-matomo.php:38
+#: includes/extensions/items-matomo.php:42
+msgid "Matomo (Piwik)"
+msgstr "Matomo (Piwik)"
+
+#: includes/extensions/items-matomo.php:55
+msgid "Matomo (Piwik) Setup"
+msgstr "Matomo (Piwik) Einrichtung"
+
+#: includes/extensions/items-page-speed.php:37
+#: includes/extensions/items-page-speed.php:41
+msgid "Page Speed"
+msgstr "Seitengeschwindigkeit"
+
+#: includes/extensions/items-page-speed.php:50
+msgid "Page Speed Dashboard"
+msgstr "Seitengeschwindigkeit Dashboard"
+
+#: includes/extensions/items-page-speed.php:54
+msgid "Page Speed Bulk Actions"
+msgstr "Seitengeschwindigkeit Massenaktionen"
+
+#: includes/extensions/items-sucuri.php:38
+#: includes/extensions/items-sucuri.php:42
+msgid "Sucuri Scan"
+msgstr "Sucuri-Scan"
+
+#: includes/extensions/items-sucuri.php:51
+#: includes/extensions/items-sucuri.php:55
+msgid "Scan Now"
+msgstr "Jetzt scannen"
+
+#: includes/extensions/items-time-capsule.php:38
+#: includes/extensions/items-time-capsule.php:42
+msgid "WP Time Capsule"
+msgstr "WP Time Capsule"
+
+#: includes/extensions/items-time-capsule.php:64
+#: includes/extensions/items-time-capsule.php:68
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: includes/extensions/items-time-capsule.php:77
+#: includes/extensions/items-time-capsule.php:81
+msgid "Backup Options"
+msgstr "Datensicherungs-Einstellungen"
+
+#: includes/extensions/items-time-capsule.php:90
+#: includes/extensions/items-time-capsule.php:94
+msgid "Backup/ Auto Updates"
+msgstr "Backup/ Automatische Updates"
+
+#: includes/extensions/items-time-capsule.php:103
+#: includes/extensions/items-time-capsule.php:107
+msgid "Vulnerbility Updates"
+msgstr "Aktualisierungen zu Sicherheitsrisiken"
+
+#: includes/extensions/items-time-capsule.php:116
+#: includes/extensions/items-time-capsule.php:120
+#: includes/extensions/items-wpstaging.php:38
+msgid "Staging"
+msgstr "Staging"
+
+#: includes/extensions/items-time-capsule.php:129
+#: includes/extensions/items-time-capsule.php:133
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: includes/extensions/items-time-capsule.php:142
+#: includes/extensions/items-wpfixit.php:121
+#: includes/extensions/items-wpfixit.php:125
+msgid "My Account"
+msgstr "Mein Benutzerkonto"
+
+#: includes/extensions/items-time-capsule.php:146
+msgid "My Account - WP Time Capsule"
+msgstr "Mein Konto - WP Time Capsule"
+
+#: includes/extensions/items-updraftplus.php:37
+#: includes/extensions/items-updraftplus.php:41
+msgid "UpdraftPlus Backups"
+msgstr "UpdraftPlus Backups"
+
+#: includes/extensions/items-updraftplus.php:63
+#: includes/extensions/items-updraftplus.php:67
+msgid "Scheduled Backups"
+msgstr "Geplante Backups"
+
+#: includes/extensions/items-uptime-monitor.php:38
+#: includes/extensions/items-uptime-monitor.php:42
+msgid "Advanced Uptime Monitor"
+msgstr "Erweiterte Verfügbarkeitsüberwachung"
+
+#: includes/extensions/items-uptime-monitor.php:51
+#: includes/extensions/items-uptime-monitor.php:55
+msgid "Check Uptime"
+msgstr "Verfügbarkeit prüfen"
+
+#: includes/extensions/items-uptime-monitor.php:64
+#: includes/extensions/items-uptime-monitor.php:68
+msgid "Uptime Robot Service"
+msgstr "Dienst Uptime Robot"
+
+#: includes/extensions/items-vulnerability-checker.php:38
+#: includes/extensions/items-vulnerability-checker.php:42
+msgid "Vulnerability Checker"
+msgstr "Prüfen auf Eindringlinge"
+
+#: includes/extensions/items-vulnerability-checker.php:51
+#: includes/extensions/items-vulnerability-checker.php:55
+msgid "Check Now"
+msgstr "Jetzt prüfen"
+
+#: includes/extensions/items-wordfence.php:38
+#: includes/extensions/items-wordfence.php:42
+msgid "Wordfence"
+msgstr "Wordfence"
+
+#: includes/extensions/items-wordfence.php:64
+#: includes/extensions/items-wordfence.php:68
+msgid "Wordfence Options"
+msgstr "Wordfence-Optionen"
+
+#: includes/extensions/items-wordfence.php:77
+#: includes/extensions/items-wordfence.php:81
+msgid "Live Traffic"
+msgstr "Live-Monitor"
+
+#: includes/extensions/items-wordfence.php:90
+#: includes/extensions/items-wordfence.php:94
+msgid "Blocking"
+msgstr "Blockierung"
+
+#: includes/extensions/items-wordfence.php:103
+#: includes/extensions/items-wordfence.php:107
+msgid "Firewall"
+msgstr "Firewall"
+
+#: includes/extensions/items-wordfence.php:116
+#: includes/extensions/items-wordfence.php:120
+msgid "Scan"
+msgstr "Scannen"
+
+#: includes/extensions/items-wordfence.php:129
+#: includes/extensions/items-wordfence.php:133
+msgid "Diagnostics"
+msgstr "Diagnose"
+
+#: includes/extensions/items-wpcompress.php:34
+#: includes/extensions/items-wpcompress.php:66
+msgid "WP Compress Media"
+msgstr "WP Compress Media"
+
+#: includes/extensions/items-wpcompress.php:38
+#: includes/extensions/items-wpcompress.php:70
+msgid "WP Compress Media for better Performance"
+msgstr "WP Compress Media für bessere Performance"
+
+#: includes/extensions/items-wpcompress.php:79
+#: includes/extensions/items-wpcompress.php:83
+msgid "Bulk Install WP Compress"
+msgstr "Masseninstallation WP Compress"
+
+#: includes/extensions/items-wpcompress.php:92
+#: includes/extensions/items-wpcompress.php:96
+msgid "Customer Dashboard"
+msgstr "Kunden-Dashboard"
+
+#: includes/extensions/items-wpcompress.php:105
+#: includes/extensions/items-wpcompress.php:109
+msgid "Add Website"
+msgstr "Website hinzufügen"
+
+#: includes/extensions/items-wpfixit.php:50
+#: includes/extensions/items-wpfixit.php:82
+msgid "WP Fix It Support"
+msgstr "WP Fix It Support"
+
+#: includes/extensions/items-wpfixit.php:54
+#: includes/extensions/items-wpfixit.php:86
+msgid "WP Fix It Support Request"
+msgstr "WP Fix It Supportanfrage"
+
+#: includes/extensions/items-wpfixit.php:95
+#: includes/extensions/items-wpfixit.php:99
+msgid "Support Request"
+msgstr "Supportanfrage"
+
+#: includes/extensions/items-wpfixit.php:108
+#: includes/extensions/items-wpfixit.php:112
+msgid "WP Fix It Plans"
+msgstr "WP Fix It Angebote"
+
+#: includes/extensions/items-wprocket.php:37
+#: includes/extensions/items-wprocket.php:41
+msgid "WP Rocket"
+msgstr "WP Rocket"
+
+#: includes/extensions/items-wprocket.php:63
+msgid "WP Rocket Dashboard"
+msgstr "WP Rocket Dashboard"
+
+#: includes/extensions/items-wprocket.php:67
+msgid "WP Rocket Dashboard (plugin)"
+msgstr "WP Rocket Dashboard (Plugin)"
+
+#: includes/extensions/items-wprocket.php:76
+msgid "Cache"
+msgstr "Cache"
+
+#: includes/extensions/items-wprocket.php:80
+msgid "Basic Cache Options"
+msgstr "Grundlegende Cache-Optionen"
+
+#: includes/extensions/items-wprocket.php:89
+#: includes/extensions/items-wprocket.php:93
+msgid "File Optimization"
+msgstr "Datei-Optimierung"
+
+#: includes/extensions/items-wprocket.php:102
+msgid "Media"
+msgstr "Medien"
+
+#: includes/extensions/items-wprocket.php:106
+msgid "Media Options"
+msgstr "Medienoptionen"
+
+#: includes/extensions/items-wprocket.php:115
+msgid "Preload"
+msgstr "Vorladen"
+
+#: includes/extensions/items-wprocket.php:119
+msgid "Preload Options"
+msgstr "Vorladen-Optionen"
+
+#: includes/extensions/items-wprocket.php:128
+#: includes/extensions/items-wprocket.php:132
+msgid "Advanced Rules"
+msgstr "Erweiterte Regeln"
+
+#: includes/extensions/items-wprocket.php:141
+msgid "Database"
+msgstr "Datenbank"
+
+#: includes/extensions/items-wprocket.php:145
+msgid "Database Optimization"
+msgstr "Datenbank-Optimierung"
+
+#: includes/extensions/items-wprocket.php:154
+msgid "CDN"
+msgstr "CDN"
+
+#: includes/extensions/items-wprocket.php:158
+msgid "CDN - Content Delivery Network Options"
+msgstr "CDN - Content Delivery Network Optionen"
+
+#: includes/extensions/items-wprocket.php:167
+msgid "Varnish"
+msgstr "Varnish"
+
+#: includes/extensions/items-wprocket.php:171
+msgid "Varnish Caching Options"
+msgstr "Varnish Cache-Optionen"
+
+#: includes/extensions/items-wprocket.php:180
+#: includes/extensions/items-wprocket.php:184
+msgid "Tools"
+msgstr "Werkzeuge"
+
+#: includes/extensions/items-wpstaging.php:42
+msgid "WP-Staging Manager"
+msgstr "WP-Staging Manager"
+
+#: includes/extensions/items-wpstaging.php:51
+#: includes/extensions/items-wpstaging.php:55
+msgid "WP-Staging Dashboard"
+msgstr "WP-Staging Dashboard"
+
+#: includes/extensions/items-wpstaging.php:68
+msgid "WP-Staging Settings"
+msgstr "WP-Staging-Einstellungen"
+
+#: includes/extensions/items-yoast-seo.php:38
+#: includes/extensions/items-yoast-seo.php:42
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: includes/extensions/items-yoast-seo.php:51
+msgid "SEO Dashboard"
+msgstr "SEO-Dashboard"
+
+#: includes/extensions/items-yoast-seo.php:55
+msgid "Yoast SEO Dashboard"
+msgstr "Yoast SEO-Dashboard"
+
+#: includes/extensions/items-yoast-seo.php:64
+#: includes/extensions/items-yoast-seo.php:68
+msgid "SEO Templates"
+msgstr "SEO-Templates"
+
+#: includes/functions-global.php:124
+msgid "MainWP Component"
+msgstr "MainWP-Komponente"
+
+#: includes/items-mainwp-groups.php:56
+msgid "My Groups"
+msgstr "Meine Gruppen"
+
+#: includes/items-mainwp-groups.php:60
+msgid "My Groups of MainWP Websites (Child Sites)"
+msgstr "Meine Gruppen von MainWP-Websites (Child-Websites)"
+
+#: includes/items-mainwp-sites.php:56
+msgid "My Child Sites"
+msgstr "Meine Child Websites"
+
+#: includes/items-mainwp-sites.php:60
+msgid "My MainWP Websites (Child Sites)"
+msgstr "Meine MainWP-Websites (Child Websites)"
+
+#: includes/items-mainwp-sites.php:115
+msgid "Manage in MainWP"
+msgstr "Verwalten in MainWP"
+
+#: includes/items-mainwp-sites.php:119
+msgid "Manage"
+msgstr "Verwalten"
+
+#: includes/items-mainwp-sites.php:128 includes/items-mainwp-sites.php:132
+msgid "Open WP-Admin"
+msgstr "WP-Admin öffnen"
+
+#: includes/items-mainwp-sites.php:141
+msgid "Visit Website"
+msgstr "Website besuchen"
+
+#: includes/items-mainwp-sites.php:145
+msgid "Visit Website (Frontend)"
+msgstr "Website besuchen (Frontend)"
+
+#: includes/items-mainwp-statuses.php:37
+msgid "Online"
+msgstr "Online"
+
+#: includes/items-mainwp-statuses.php:38
+msgid "Offline"
+msgstr "Offline"
+
+#: includes/items-mainwp-statuses.php:39
+msgid "Disconnected"
+msgstr "Getrennt"
+
+#: includes/items-mainwp-statuses.php:40
+msgid "Available update"
+msgstr "Verfügbares Update"
+
+#: includes/items-mainwp-statuses.php:55
+msgid "Statuses"
+msgstr "Status"
+
+#: includes/items-mainwp-statuses.php:59
+msgid "Statuses of MainWP Websites (Child Sites)"
+msgstr "Status von MainWP-Websites (Child-Websites)"
+
+#: includes/items-mainwp.php:50
+msgid "My MainWP Dashboard"
+msgstr "Mein MainWP Dashboard"
+
+#: includes/items-mainwp.php:83 includes/items-mainwp.php:87
+#: includes/items-mainwp.php:1170 includes/items-mainwp.php:1174
+msgid "MainWP Quick Setup"
+msgstr "MainWP Schnelleinrichtung"
+
+#: includes/items-mainwp.php:96 includes/items-mainwp.php:100
+msgid "Start Setup"
+msgstr "Einrichtung starten"
+
+#: includes/items-mainwp.php:109 includes/items-mainwp.php:113
+msgid "Step 1: Installation"
+msgstr "Schritt 1: Installation"
+
+#: includes/items-mainwp.php:122 includes/items-mainwp.php:126
+msgid "Step 2: System Checkup"
+msgstr "Schritt 2: Systemüberprüfung"
+
+#: includes/items-mainwp.php:135 includes/items-mainwp.php:139
+msgid "Step 3: Hosting Setup"
+msgstr "Schritt 3: Hosting-Einrichtung"
+
+#: includes/items-mainwp.php:148 includes/items-mainwp.php:152
+msgid "Step 4: Optimization"
+msgstr "Schritt 4: Optimierung"
+
+#: includes/items-mainwp.php:161 includes/items-mainwp.php:165
+msgid "Step 5: Notifications"
+msgstr "Schritt 5: Benachrichtigungen"
+
+#: includes/items-mainwp.php:174 includes/items-mainwp.php:178
+msgid "Step 6: Backups"
+msgstr "Schritt 6: Backups"
+
+#: includes/items-mainwp.php:187 includes/items-mainwp.php:191
+msgid "Step 7: WP-Cron Trigger"
+msgstr "Schritt 7: WP-Cron-Auslöser"
+
+#: includes/items-mainwp.php:200 includes/items-mainwp.php:204
+msgid "Step 8: Cleanup"
+msgstr "Schritt 8: Aufräumen"
+
+#: includes/items-mainwp.php:255 includes/items-mainwp.php:259
+msgid "Manage Updates"
+msgstr "Updates verwalten"
+
+#: includes/items-mainwp.php:268 includes/items-mainwp.php:273
+msgid "Sync Child Sites"
+msgstr "Child Sites synchronisieren"
+
+#: includes/items-mainwp.php:282 includes/items-mainwp.php:287
+msgid "Update Everything"
+msgstr "Alles aktualisieren"
+
+#: includes/items-mainwp.php:296 includes/items-mainwp.php:301
+msgid "Update All Plugins"
+msgstr "Alle Plugins aktualisieren"
+
+#: includes/items-mainwp.php:310 includes/items-mainwp.php:315
+msgid "Update All Themes"
+msgstr "Alle Themes aktualisieren"
+
+#: includes/items-mainwp.php:324 includes/items-mainwp.php:329
+msgid "Update All Translations"
+msgstr "Alle Übersetzungen aktualisieren"
+
+#: includes/items-mainwp.php:371
+msgid "Add New Stuff"
+msgstr "Neues Material hinzufügen"
+
+#: includes/items-mainwp.php:388
+msgid "Website (Child Site)"
+msgstr "Website (Child Site)"
+
+#: includes/items-mainwp.php:392 includes/items-mainwp.php:575
+msgid "Add New Website (Child Site)"
+msgstr "Neue Website hinzufügen (Child Site)"
+
+#: includes/items-mainwp.php:409
+msgid "Plugin (Bulk Install)"
+msgstr "Plugin (Masseninstallation)"
+
+#: includes/items-mainwp.php:413
+msgid "Add New Plugin (Bulk Install)"
+msgstr "Neues Plugin hinzufügen (Masseninstallation)"
+
+#: includes/items-mainwp.php:422
+msgid "Theme (Bulk Install)"
+msgstr "Theme (Masseninstallation)"
+
+#: includes/items-mainwp.php:426
+msgid "Add New Theme (Bulk Install)"
+msgstr "Neues Theme hinzufügen (Masseninstallation)"
+
+#: includes/items-mainwp.php:435 includes/items-mainwp.php:439
+msgid "MainWP Extension"
+msgstr "MainWP Erweiterung"
+
+#: includes/items-mainwp.php:459
+msgid "Page (Bulk)"
+msgstr "Seite (mehrfach)"
+
+#: includes/items-mainwp.php:463 includes/items-mainwp.php:703
+msgid "Add New Page (Bulk Mode)"
+msgstr "Neue Seite hinzufügen (Mehrfachaktion)"
+
+#: includes/items-mainwp.php:472
+msgid "Post (Bulk)"
+msgstr "Beitrag (mehrfach)"
+
+#: includes/items-mainwp.php:476 includes/items-mainwp.php:737
+msgid "Add New Post (Bulk Mode)"
+msgstr "Neuen Beitrag hinzufügen (Mehrfachaktion)"
+
+#: includes/items-mainwp.php:493
+msgid "User (Bulk)"
+msgstr "Benutzer (mehrfach)"
+
+#: includes/items-mainwp.php:497
+msgid "Add New Users (Bulk Mode)"
+msgstr "Neue Benutzer hinzufügen (Mehrfachaktion)"
+
+#: includes/items-mainwp.php:549
+msgid "Websites (Child Sites)"
+msgstr "Websites (Child Sites)"
+
+#: includes/items-mainwp.php:558
+msgid "Manage Sites"
+msgstr "Websites verwalten"
+
+#: includes/items-mainwp.php:562
+msgid "Manage Websites (Child Sites)"
+msgstr "Websites verwalten (Child Sites)"
+
+#: includes/items-mainwp.php:571
+msgid "New Website"
+msgstr "Neue Website"
+
+#: includes/items-mainwp.php:584
+msgid "Import Sites"
+msgstr "Sites importieren"
+
+#: includes/items-mainwp.php:588
+msgid "Import Websites (Child Sites)"
+msgstr "Websites importieren (Child Sites)"
+
+#: includes/items-mainwp.php:597
+msgid "Test Connection"
+msgstr "Verbindung testen"
+
+#: includes/items-mainwp.php:601
+msgid "Test Connection to a Website (Child Site)"
+msgstr "Verbindung zu einer Website testen (Child Site)"
+
+#: includes/items-mainwp.php:610 includes/items-mainwp.php:614
+msgid "Groups"
+msgstr "Gruppen"
+
+#: includes/items-mainwp.php:623 includes/items-mainwp.php:627
+#: includes/items-mainwp.php:1368 includes/items-mainwp.php:1372
+msgid "Child Sites Server Info"
+msgstr "Child Sites Server-Info"
+
+#: includes/items-mainwp.php:669
+msgid "Manage Content - Posts &amp; Pages"
+msgstr "Inhalte verwalten - Beiträge &amp; Seiten"
+
+#: includes/items-mainwp.php:686 includes/items-mainwp.php:690
+msgid "Manage Pages"
+msgstr "Seiten verwalten"
+
+#: includes/items-mainwp.php:699
+msgid "New Page"
+msgstr "Neue Seite"
+
+#: includes/items-mainwp.php:720 includes/items-mainwp.php:724
+msgid "Manage Posts"
+msgstr "Beiträge verwalten"
+
+#: includes/items-mainwp.php:733
+msgid "New Post"
+msgstr "Neuer Beitrag"
+
+#: includes/items-mainwp.php:788 includes/items-mainwp.php:792
+msgid "Manage Plugins"
+msgstr "Verwalte Plaugins"
+
+#: includes/items-mainwp.php:801 includes/items-mainwp.php:908
+msgid "Bulk Install"
+msgstr "Masseninstallation"
+
+#: includes/items-mainwp.php:805
+msgid "Bulk Install New Plugins"
+msgstr "Neue Plugins Masseninstallation"
+
+#: includes/items-mainwp.php:814 includes/items-mainwp.php:921
+msgid "Auto Updates"
+msgstr "Automatische Updates"
+
+#: includes/items-mainwp.php:818 includes/items-mainwp.php:925
+msgid "Manage Auto Updates"
+msgstr "Automatische Updates verwalten"
+
+#: includes/items-mainwp.php:827 includes/items-mainwp.php:934
+msgid "Ignored Updates"
+msgstr "Ignorierte Updates"
+
+#: includes/items-mainwp.php:831
+msgid "Ignored Plugin Updates"
+msgstr "Ignorierte Plugin-Updates"
+
+#: includes/items-mainwp.php:840 includes/items-mainwp.php:844
+msgid "Ignored Abandoned Plugins"
+msgstr "Ignorierte aufgegeben Plugins"
+
+#: includes/items-mainwp.php:895 includes/items-mainwp.php:899
+msgid "Manage Themes"
+msgstr "Verwalte Themes"
+
+#: includes/items-mainwp.php:912
+msgid "Bulk Install New Themes"
+msgstr "Neue Themes Masseninstallation"
+
+#: includes/items-mainwp.php:938
+msgid "Ignored Theme Updates"
+msgstr "Ignorierte Theme-Updates"
+
+#: includes/items-mainwp.php:947 includes/items-mainwp.php:951
+msgid "Ignored Abandoned Themes"
+msgstr "Ignorierte aufgegebene Themes"
+
+#: includes/items-mainwp.php:1002 includes/items-mainwp.php:1006
+msgid "Manage Users"
+msgstr "Benutzer verwalten"
+
+#: includes/items-mainwp.php:1015
+msgid "Add User"
+msgstr "Benutzer hinzufügen"
+
+#: includes/items-mainwp.php:1019
+msgid "Bulk Add New Users"
+msgstr "Mehrere neue Benutzer hinzufügen"
+
+#: includes/items-mainwp.php:1028
+msgid "Import Users"
+msgstr "User importieren"
+
+#: includes/items-mainwp.php:1032
+msgid "Bulk Import Users"
+msgstr "Mehrere Benutzer importieren"
+
+#: includes/items-mainwp.php:1041 includes/items-mainwp.php:1045
+msgid "Admin Passwords"
+msgstr "Admin Passwort"
+
+#: includes/items-mainwp.php:1104 includes/items-mainwp.php:1108
+msgid "Global Options"
+msgstr "Globale Optionen"
+
+#: includes/items-mainwp.php:1117 includes/items-mainwp.php:1121
+msgid "Dashboard Options"
+msgstr "Dashboard-Optionen"
+
+#: includes/items-mainwp.php:1130 includes/items-mainwp.php:1134
+msgid "Advanced Options"
+msgstr "Erweiterte Optionen"
+
+#: includes/items-mainwp.php:1144 includes/items-mainwp.php:1148
+msgid "MainWP Tools"
+msgstr "MainWP Werkzeuge"
+
+#: includes/items-mainwp.php:1157 includes/items-mainwp.php:1161
+msgid "Scan Child Sites"
+msgstr "Child Sites scannen"
+
+#: includes/items-mainwp.php:1184 includes/items-mainwp.php:1188
+msgid "Managed Client Reports Responder"
+msgstr "Verwaltete Kundenberichte Responder"
+
+#: includes/items-mainwp.php:1205 includes/items-mainwp.php:1209
+msgid "MainWP Toolbar"
+msgstr "MainWP-Toolbar"
+
+#: includes/items-mainwp.php:1218 includes/items-mainwp.php:1222
+#: toolbar-extras-mainwp.php:248 toolbar-extras-mainwp.php:267
+#: toolbar-extras-mainwp.php:313
+msgid "Toolbar Extras"
+msgstr "Toolbar Extras"
+
+#: includes/items-mainwp.php:1231
+msgid "MainWP Plugins/ Extensions"
+msgstr "MainWP Plugins/ Erweiterungen"
+
+#: includes/items-mainwp.php:1235
+msgid "Filter MainWP Plugins &amp; Extensions"
+msgstr "MainWP Plugins &amp; Erweiterungen filtern"
+
+#: includes/items-mainwp.php:1278
+msgid "Server Information"
+msgstr "Server-Informationen"
+
+#: includes/items-mainwp.php:1295
+msgid "Server System Info"
+msgstr "Infos zum Serversystem"
+
+#: includes/items-mainwp.php:1299
+msgid "Server System Information"
+msgstr "Informationen zum Serversystem"
+
+#: includes/items-mainwp.php:1308
+msgid "Cron Schedule"
+msgstr "Cron Zeitplan"
+
+#: includes/items-mainwp.php:1312
+msgid "Cron - Scheduled Jobs"
+msgstr "Cron - Geplante Aufträge"
+
+#: includes/items-mainwp.php:1321 includes/items-mainwp.php:1325
+msgid "Error Logs"
+msgstr "Fehlerprotokolle"
+
+#: includes/items-mainwp.php:1334 includes/items-mainwp.php:1338
+msgid "WP-Config File"
+msgstr "WP-Config-Datei"
+
+#: includes/items-mainwp.php:1347 includes/items-mainwp.php:1351
+msgid ".htaccess File"
+msgstr ".htaccess-Datei"
+
+#: includes/items-mainwp.php:1395
+msgid "Site Health Status"
+msgstr "Website-Status"
+
+#: includes/items-mainwp.php:1399 includes/items-mainwp.php:1412
+msgid "MainWP Dashboard Installation - Site Health Status"
+msgstr "MainWP Dashboard Installation - Zustandsstatus der Website"
+
+#: includes/items-mainwp.php:1408
+msgid "Health Status"
+msgstr "Website-Status"
+
+#: includes/items-mainwp.php:1421
+msgid "Debug Info"
+msgstr "Debug-Informationen"
+
+#: includes/items-mainwp.php:1425
+msgid "MainWP Dashboard Installation - Debug Info"
+msgstr "MainWP Dashboard Installation - Debug-Inforomationen"
+
+#: includes/plugin-manager.php:49
+msgid "Add-On for MainWP"
+msgstr "Add-On für MainWP"
+
+#: includes/plugin-manager.php:53
+msgctxt "Plugin Name"
+msgid "MainWP Dashboard"
+msgstr "MainWP Dashboard"
+
+#: includes/plugin-manager.php:57
+msgid "Required plugin for this Add-On to make any sense"
+msgstr "Erforderliches Plugin, damit dieses Add-On hier einen Sinn ergibt"
+
+#: includes/plugin-manager.php:62
+msgctxt "Plugin Name"
+msgid "MainWP free Extension: Vulnerability Checker"
+msgstr "MainWP, kostenlose Erweiterung: Prüfen auf Eindringlinge"
+
+#: includes/plugin-manager.php:69
+msgid "Highly recommended extension to check your child sites regularly"
+msgstr ""
+"Sehr empfohlene Erweiterung, um Ihre Child-Websites regelmäßig zu überprüfen"
+
+#: includes/plugin-manager.php:74
+msgctxt "Plugin Name"
+msgid "MainWP free Extension: Clean and Lock"
+msgstr "MainWP, kostenlose Erweiterung: Sauber und abgesichert"
+
+#: includes/plugin-manager.php:81
+msgid "Highly recommended extension to lock up your Dashboard install"
+msgstr "Empfohlene Erweiterung zum Sperren der Dashboard-Installation"
+
+#: includes/plugin-manager.php:86
+msgctxt "Plugin Name"
+msgid "Activity Log for MainWP"
+msgstr "Aktivitätsprotokoll für MainWP"
+
+#: includes/plugin-manager.php:92
+msgid "Highly recommended extension to control activity on your Child Sites"
+msgstr ""
+"Sehr empfehlenswerte Erweiterung zur Kontrolle der Aktivitäten auf Ihren "
+"Child-Websites"
+
+#: includes/plugin-manager.php:97
+msgctxt "Plugin Name"
+msgid "Disable Comments"
+msgstr "Beitragskommentare deaktivieren"
+
+#: includes/plugin-manager.php:103
+msgid ""
+"Recommended to disable comments on your Dashboard Site to clean up the Admin "
+"and for security reasons"
+msgstr ""
+"Es wird empfohlen, Kommentare auf Ihrer Dashboard-Website zu deaktivieren, "
+"um den Adminbereich zu bereinigen, sowie aus Sicherheitsgründen"
+
+#: includes/plugin-manager.php:108
+msgctxt "Plugin Name"
+msgid "Members"
+msgstr "Mitglieder"
+
+#: includes/plugin-manager.php:114
+msgid ""
+"Recommended - allows you to make your Dashboard Site only accessable via "
+"login"
+msgstr ""
+"Empfohlen - ermöglicht es Ihnen, Ihre Dashboard-Website nur per Anmeldung "
+"zugänglich zu machen"
+
+#: includes/plugin-manager.php:119
+msgctxt "Plugin Name"
+msgid "Limit Login Attempts Reloaded"
+msgstr "Limit Login Attempts Reloaded (Login-Versuche beschränken)"
+
+#: includes/plugin-manager.php:125
+msgid "Recommended - hardens security for the login form of your installation"
+msgstr ""
+"Empfohlen - erhöht die Sicherheit für das Anmeldeformular Ihrer Installation"
+
+#: includes/plugin-manager.php:250
+msgctxt "MainWP plugins filter on Plugins page"
+msgid "MainWP"
+msgstr "MainWP"
+
+#: includes/plugin-manager.php:252
+msgid "Show all MainWP Plugins and Extensions"
+msgstr "Alle MainWP-Plugins und -Erweiterungen anzeigen"
+
+#. translators: %s - Name of MainWP component, for example "Dashboard"
+#: includes/string-switcher.php:86
+#, php-format
+msgid "%s - Display?"
+msgstr "%s - anzeigen?"
+
+#. translators: %s - Name of MainWP component, for example "Dashboard"
+#: includes/string-switcher.php:115
+#, php-format
+msgid "%s - Icon"
+msgstr "%s - Icon"
+
+#. translators: %s - Name of MainWP component, for example "Dashboard"
+#: includes/string-switcher.php:137
+#, php-format
+msgid "%s - Name"
+msgstr "%s - Name"
+
+#. translators: %s - Name of MainWP component, for example "Dashboard"
+#: includes/string-switcher.php:159
+#, php-format
+msgid "%s - Priority"
+msgstr "%s - Priorität"
+
+#. translators: %s - Name of MainWP component, for example "Dashboard"
+#: includes/string-switcher.php:181
+#, php-format
+msgid "Show the %s component as top-level Toolbar item."
+msgstr "Die %s-Komponente als Top-Level Toolbar-Link anzeigen."
+
+#: includes/string-switcher.php:210
+#, php-format
+msgctxt "MainWP component title"
+msgid "%s Website"
+msgid_plural "%s Websites"
+msgstr[0] "%s Website"
+msgstr[1] "%s Websites"
+
+#: includes/string-switcher.php:247
+msgid "Set component Toolbar title"
+msgstr "Toolbar-Titel für Komponente festlegen"
+
+#: includes/string-switcher.php:264
+msgid "Official Extension Documentation"
+msgstr "Offizielle Dokumentation der Erweiterung"
+
+#: toolbar-extras-mainwp.php:247
+#, php-format
+msgid ""
+"The needed base plugin %s is already installed but not activated. (Toolbar "
+"Extras for MainWP is an Add-On plugin which DEPENDS on Toolbar Extras.)"
+msgstr ""
+"Das benötigte Basis-Plugin %s ist bereits installiert, aber noch nicht "
+"aktiviert. (Toolbar Extras für MainWP ist ein Add-On-Plugin, welches von "
+"Toolbar Extras ABHÄNGIG ist.)"
+
+#: toolbar-extras-mainwp.php:253
+msgid "Activate Toolbar Extras Now"
+msgstr "Toolbar Extras jetzt aktivieren"
+
+#. translators: %1$s - name of the base plugin "Toolbar Extras" / %2$s - required version of base plugin, for example: 1.4.3
+#: toolbar-extras-mainwp.php:266
+#, php-format
+msgid ""
+"Toolbar Extras for MainWP is an Add-On plugin which DEPENDS on the (free) "
+"%1$s plugin in version %2$s or higher to be installed and activated."
+msgstr ""
+"Toolbar Extras für MainWP ist ein Add-On-Plugin, welches ERFORDERT, dass das "
+"(kostenlose) Plugin %1$s in Version %2$s oder höher installiert und "
+"aktiviert ist."
+
+#: toolbar-extras-mainwp.php:273
+msgid "Install Toolbar Extras Now"
+msgstr "Toolbar Extras jetzt installieren"
+
+#: toolbar-extras-mainwp.php:312
+#, php-format
+msgid ""
+"Toolbar Extras for MainWP is not working yet because you are using an old "
+"version of the base plugin %s."
+msgstr ""
+"Toolbar Extras für MainWP funktioniert noch nicht, da Sie derzeit eine "
+"veraltete Version des Basis-Plugins %s verwenden."
+
+#: toolbar-extras-mainwp.php:318
+msgid "Update Toolbar Extras Now"
+msgstr "Toolbar Extras jetzt aktualisieren"
+
+#: uninstall.php:41
+msgid "You must be logged in to run this script."
+msgstr "Sie müssen angemeldet sein, um dieses Skript ausführen zu können."
+
+#: uninstall.php:51
+msgid "You do not have permission to run this script."
+msgstr "Sie haben keine Berechtigung, um dieses Skript ausführen zu können."
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/deckerweb/toolbar-extras-mainwp"
+msgstr "https://github.com/deckerweb/toolbar-extras-mainwp"
+
+#. Description of the plugin/theme
+msgid ""
+"Spice up your WordPress Toolbar for your MainWP Dashboard: Make managing "
+"your Websites via MainWP even faster with enhanced quick jump links. - This "
+"is an Add-On plugin for Toolbar Extras."
+msgstr ""
+"Verschönern Sie Ihre WordPress Toolbar (Adminbar, Werkzeugleiste) für Ihr "
+"MainWP-Dashboard: Machen Sie die Verwaltung Ihrer Websites über MainWP noch "
+"schneller mit verbesserten Quick Jump Links. - Dies ist ein Add-On Plugin "
+"für Toolbar Extras."
+
+#. Author of the plugin/theme
+msgid "David Decker - DECKERWEB"
+msgstr "David Decker - DECKERWEB.de"
+
+#. Author URI of the plugin/theme
+msgid "https://toolbarextras.com/"
+msgstr "https://toolbarextras.com/"
+
+#~ msgid "Add New Job"
+#~ msgstr "Neuen Auftrag hinzufügen"
+
+#~ msgid "Add New Backup Job"
+#~ msgstr "Neuen Backup-Auftrag hinzufügen"
+
+#~ msgid ""
+#~ "To adjust these settings just open the %1$s tab here. Don't let the "
+#~ "\"(local) development\" wording confuse you: you can use this setting "
+#~ "feature for whatever you want. Have fun! ;-)"
+#~ msgstr ""
+#~ "Um diese Einstellungen anzupassen, öffnen Sie einfach den Tab %1$s hier. "
+#~ "Lassen Sie sich nicht von der Formulierung „(Lokale) Entwicklung\" oder "
+#~ "dergleichen verwirren: Sie können diese Funktion verwenden, für was auch "
+#~ "immer Sie wollen. Viel Spaß! ;-)"
+
+#~ msgid "For Development"
+#~ msgstr "Für die Entwicklung"
+
+#~ msgctxt "Plugin Name"
+#~ msgid "Toolbar Extras"
+#~ msgstr "Toolbar Extras"
+
+#~ msgid "Suggested Plugins by Toolbar Extras for MainWP"
+#~ msgstr "Empfohlene Plugins von Toolbar Extras für MainWP"
+
+#~ msgid "Please install these plugins, thank you."
+#~ msgstr "Bitte installieren Sie diese Plugins, danke."
+
+#~ msgctxt "Admin menu title"
+#~ msgid "Suggested"
+#~ msgstr "Empfohlen"
+
+#~ msgid "%1$s suggests installing %2$s plugin."
+#~ msgstr ""
+#~ "Toolbar Extras für MainWP %1$s empfiehlt, das Plugin %2$s zu installieren."
+
+#~ msgid "%1$s suggests installing %2$s plugins."
+#~ msgstr ""
+#~ "Toolbar Extras für MainWP %1$s empfiehlt, %2$s Plugins zu installieren."
+
+#~ msgid "Suggested Plugins"
+#~ msgstr "Empfohlene Plugins"
+
+#~ msgid "Suggested by %s"
+#~ msgstr "Empfohlen von %s"
+
+#~ msgid "Suggested Plugins by %s"
+#~ msgstr "Empfohlene Plugins von %s"
+
+#~ msgid "Manage suggested plugins"
+#~ msgstr "Verwalten von empfohlenen Plugins"
+
+#~ msgid "Dismiss this notice"
+#~ msgstr "Hinweis ausblenden"
+
+#~ msgid "Not all of your active, suggested plugins are compatible with %s."
+#~ msgstr ""
+#~ "Nicht alle Ihrer aktiven, empfohlenen Plugins sind mit %s kompatibel."
+
+#~ msgid "Only plugins from wordpress.org can be installed directly here."
+#~ msgstr ""
+#~ "Nur Plugins von WordPress.org können hier direkt installiert werden."
+
+#~ msgid "Plugin update skipped because it is not installed."
+#~ msgstr "Plugin-Update wurde übersprungen, weil es nicht installiert ist."
+
+#~ msgid "No suggested plugins given."
+#~ msgstr "Es wurden keine Plugins vorgeschlagen."
+
+#~ msgid "Install"
+#~ msgstr "Installieren"
+
+#~ msgid "Activate"
+#~ msgstr "Aktivieren"
+
+#~ msgid "Deactivate"
+#~ msgstr "Deaktivieren"
+
+#~ msgid "Update"
+#~ msgstr "Update"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"
+
+#~ msgid "Select bulk action"
+#~ msgstr "Mehrfachaktion auswählen"
+
+#~ msgid "Apply"
+#~ msgstr "Anwenden"
+
+#~ msgid "Select All"
+#~ msgstr "Alle auswählen"
+
+#~ msgid "Compatible Version"
+#~ msgstr "Empfohlene Version"
+
+#~ msgid "Installed Version"
+#~ msgstr "Installierte Version"
+
+#~ msgid "Select %s"
+#~ msgstr "%s auswählen"
+
+#~ msgid "Not Installed"
+#~ msgstr "Nicht installiert"
+
+#~ msgid "Details"
+#~ msgstr "Details"
+
+#~ msgid "More Information about %s"
+#~ msgstr "Mehr Informationen über %s"
+
+#~ msgid "Install %s"
+#~ msgstr "%s installieren"
+
+#~ msgid "Get Plugin"
+#~ msgstr "Plugin herunterladen"
+
+#~ msgid "Activate %s"
+#~ msgstr "%s aktivieren"
+
+#~ msgid "Deactivate %s"
+#~ msgstr "Deaktivieren %s"
+
+#~ msgid "Delete %s"
+#~ msgstr "Lösche %s"
+
+#~ msgid "Update to %s"
+#~ msgstr "Auf Version %s aktualisieren"
+
+#~ msgid "Update %1$s to version %2$s"
+#~ msgstr "Version %1$s auf Version %2$s aktualisieren"
+
+#~ msgid "Plugin is up-to-date"
+#~ msgstr "Das Plugin ist auf dem neuesten Stand"
+
+#~ msgid "Active"
+#~ msgstr "Aktiviert"
+
+#~ msgid "Incompatible"
+#~ msgstr "Nicht kompatibel"
+
+#~ msgid "Installed"
+#~ msgstr "Installiert"
+
+#~ msgid "Plugin activated."
+#~ msgstr "Plugin aktiviert."
+
+#~ msgid "%s plugin activated successfully."
+#~ msgid_plural "%s plugins activated successfully."
+#~ msgstr[0] "%s Plugin wurde erfolgreich aktiviert."
+#~ msgstr[1] "%s Plugins wurden erfolgreich aktiviert."
+
+#~ msgid "Plugin deactivated."
+#~ msgstr "Plugin deaktiviert."
+
+#~ msgid "Plugins deactivated."
+#~ msgstr "Plugins deaktiviert."
+
+#~ msgid "No plugins were selected."
+#~ msgstr "Es wurden keine Plugins ausgewählt."
+
+#~ msgid "No plugin slug was given."
+#~ msgstr "Es wurde kein Plugin-Slug angegeben."
+
+#~ msgid "Sorry, you are not allowed to update plugins for this site."
+#~ msgstr ""
+#~ "Sie haben keine Berechtigung, die Plugins für diese Website zu "
+#~ "aktualisieren."
+
+#~ msgid ""
+#~ "The plugin %s doesn't exist within the plugin manager's registered "
+#~ "plugins."
+#~ msgstr ""
+#~ "Das Plugin %s existiert nicht innerhalb der registrierten Plugins des "
+#~ "Plugin-Managers."
+
+#~ msgid "No valid plugins given for bulk action."
+#~ msgstr "Keine gültigen Plugins für Mehrfachaktionen angegeben."
+
+#~ msgid ""
+#~ "None of the selected plugins could be activated. Make sure they are "
+#~ "installed."
+#~ msgstr ""
+#~ "Keines der ausgewählten Plugins konnte aktiviert werden. Stellen Sie "
+#~ "sicher, dass die Plugins auch installiert sind."
+
+#~ msgid "https://deckerweb.de/"
+#~ msgstr "https://deckerweb.de/"
+
+#~ msgid "Extensions"
+#~ msgstr "Erweiterungen"
+
+#~ msgid "Updates"
+#~ msgstr "Updates"
+
+#~ msgid "Add"
+#~ msgstr "Neu"
+
+#~ msgid "Websites"
+#~ msgstr "Websites"
+
+#~ msgid "Content"
+#~ msgstr "Inhalte"
+
+#~ msgid "Users"
+#~ msgstr "Benutzer"
+
+#~ msgid "Server Info"
+#~ msgstr "Server-Info"
+
+#, fuzzy
+#~| msgid "Dashboard"
+#~ msgid "Dasboard"
+#~ msgstr "Dashboard"

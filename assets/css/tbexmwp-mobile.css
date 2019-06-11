@@ -1,0 +1,34 @@
+/**
+ * // assets/css/tbexmwp-mobile
+ * @package Toolbar Extras for MainWP - Assets
+ * @since 1.0.0
+ */
+
+@media screen and (max-width: 782px) {
+
+	#wp-toolbar > ul > li.tbexmwp-toplevel {
+		display: block !important;
+	}
+
+	#wpadminbar .tbexmwp-toplevel .ab-icon {
+		/* font: 400 40px/45px dashicons !important; */
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		width: 52px;
+		/* height: 46px; */
+	}
+
+	#wpadminbar .tbexmwp-toplevel .ab-icon::before {
+		display: block;
+		/* font-size: 40px; */
+		font: 400 32px/1 dashicons;
+		/* line-height: 53px; */
+		text-align: center;
+		top: 5px;  /* 0; */
+		width: 52px;
+		height: 46px !important;
+		
+	}
+
+}

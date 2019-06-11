@@ -1,0 +1,22 @@
+{
+  "name": "deckerweb/toolbar-extras-mainwp",
+  "description": "WordPress plugin to spice up your WordPress Toolbar for your MainWP Dashboard: Make managing your Websites via MainWP even faster with enhanced quick jump links. - This is an Add-On plugin for Toolbar Extras.",
+  "keywords": ["toolbar", "adminbar", "admin bar", "mainwp", "manage", "websites", "links", "add-on"],
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/deckerweb/toolbar-extras-mainwp",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "David Decker",
+      "homepage": "https://toolbarextras.com/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/deckerweb/toolbar-extras-mainwp/issues",
+    "source": "https://github.com/deckerweb/toolbar-extras-mainwp"
+  },
+  "require": {
+    "php": ">=5.6"
+  }
+}
