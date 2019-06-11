@@ -285,7 +285,7 @@ Yes, technically it works fine in Multisite, you could even activate it Network-
 * News: 20 Premium MainWP extensions supported/ integrated
 
 
-= ⚡ 0.9.0 - 2019-06-11 =
+### ⚡ 0.9.0 - 2019-06-11
 * New: Private beta release on GitHub
 
 
