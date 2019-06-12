@@ -48,7 +48,7 @@ I use this Add-On for more than a half year already and it feels totally natural
 = 🔌 Supported/ Integrated free MainWP Extensions =
 * **Advanced Uptime Monitor** (free, by MainWP) - *check Child Site uptime*
 * **Vulnerability Checker** (free, by MainWP) - *scan Child Sites*
-* **Clean And Lock** (free, by MainWP) - *lock down your MainWP Dashboard install (highly recommended!)*
+* **Clean And Lock** (free, by MainWP) - *lock down your MainWP Dashboard install for the public (highly recommended!)*
 * **BackWPup** (free, by MainWP) - *great backup integration*
 * **UpdraftPlus** (free, by MainWP) - *great backup integration*
 * **BackUpWordPress** (free, by MainWP) - *great backup integration*
