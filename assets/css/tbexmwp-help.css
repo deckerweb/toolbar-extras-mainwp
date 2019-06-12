@@ -18,7 +18,7 @@
 	clear: left;
 	content: "\f325";
 	float: left;
-	margin: 1px 5px 25px -3px;
+	margin: 1px 5px 11px -3px;  /** 1px 5px 25px -3px; */
 }
 #tab-panel-tbexmwp-addon-help .dashicons-before:before {
 	margin-right: 3px;

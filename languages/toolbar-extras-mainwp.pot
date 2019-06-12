@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Toolbar Extras for MainWP\n"
-"POT-Creation-Date: 2019-06-11 11:52+0200\n"
+"POT-Creation-Date: 2019-06-12 10:25+0200\n"
 "PO-Revision-Date: 2018-10-05 01:34+0200\n"
 "Last-Translator: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
 "Language-Team: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
@@ -21,138 +21,138 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: includes/admin/admin-extras.php:43
+#: includes/admin/admin-extras.php:39
 msgid "First Step: Setup Environment to use the plugin"
 msgstr ""
 
-#: includes/admin/admin-extras.php:44
+#: includes/admin/admin-extras.php:40
 msgid "First Step: Setup Environment"
 msgstr ""
 
-#: includes/admin/admin-extras.php:55 includes/admin/tbexmwp-settings.php:1291
+#: includes/admin/admin-extras.php:51 includes/admin/tbexmwp-settings.php:1293
 msgid "MainWP Dashboard"
 msgstr ""
 
-#: includes/admin/admin-extras.php:56
+#: includes/admin/admin-extras.php:52
 msgid "My MainWP"
 msgstr ""
 
-#: includes/admin/admin-extras.php:62
+#: includes/admin/admin-extras.php:58
 msgid "Toolbar Settings for MainWP"
 msgstr ""
 
-#: includes/admin/admin-extras.php:63
+#: includes/admin/admin-extras.php:59
 msgid "Toolbar Settings"
 msgstr ""
 
-#: includes/admin/admin-extras.php:116
+#: includes/admin/admin-extras.php:112
 msgctxt "Plugins page listing"
 msgid "Support"
 msgstr ""
 
-#: includes/admin/admin-extras.php:124
+#: includes/admin/admin-extras.php:120
 msgctxt "Plugins page listing"
 msgid "Facebook Group"
 msgstr ""
 
-#: includes/admin/admin-extras.php:131
+#: includes/admin/admin-extras.php:127
 msgctxt "Plugins page listing"
 msgid "Translations"
 msgstr ""
 
-#: includes/admin/admin-extras.php:139
+#: includes/admin/admin-extras.php:135
 msgctxt "Plugins page listing"
 msgid "Donate"
 msgstr ""
 
-#: includes/admin/admin-extras.php:146
+#: includes/admin/admin-extras.php:142
 msgctxt "Plugins page listing"
 msgid "Join our Newsletter"
 msgstr ""
 
 #. translators: %s - 5 stars icons
-#: includes/admin/admin-extras.php:192
+#: includes/admin/admin-extras.php:188
 #, php-format
 msgid "%s rating"
 msgstr ""
 
 #. translators: 1 - Toolbar Extras for MainWP / 2 - label "5 star rating"
-#: includes/admin/admin-extras.php:198
+#: includes/admin/admin-extras.php:194
 #, php-format
 msgid ""
 "Enjoyed %1$s? Please leave us a %2$s. We really appreciate your support!"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-#: includes/admin/admin-extras.php:199
-#: includes/admin/tbexmwp-settings.php:1285
+#: includes/admin/admin-extras.php:195
+#: includes/admin/tbexmwp-settings.php:1287
 #: includes/admin/views/help-content-addon.php:32
 #: includes/admin/views/help-content-addon.php:60 uninstall.php:42
 #: uninstall.php:52
 msgid "Toolbar Extras for MainWP"
 msgstr ""
 
-#: includes/admin/admin-extras.php:232
+#: includes/admin/admin-extras.php:228
 msgid "Toolbar Extras for MainWP Dashboard"
 msgstr ""
 
-#: includes/admin/admin-extras.php:232
+#: includes/admin/admin-extras.php:228
 msgid "Add-On Plugin"
 msgstr ""
 
-#: includes/admin/admin-extras.php:238
+#: includes/admin/admin-extras.php:234
 msgid "Add-On Plugin version"
 msgstr ""
 
-#: includes/admin/admin-extras.php:242
+#: includes/admin/admin-extras.php:238
 msgid "Required Base Plugin version"
 msgstr ""
 
-#: includes/admin/admin-extras.php:246
+#: includes/admin/admin-extras.php:242
 msgid "Item title Child Websites"
 msgstr ""
 
-#: includes/admin/admin-extras.php:250
+#: includes/admin/admin-extras.php:246
 msgid "For Child Websites, list all Child Sites"
 msgstr ""
 
-#: includes/admin/admin-extras.php:254
+#: includes/admin/admin-extras.php:250
 msgid "For Child Websites, list Groups"
 msgstr ""
 
-#: includes/admin/admin-extras.php:258
+#: includes/admin/admin-extras.php:254
 msgid "For Child Websites, list Statuses"
 msgstr ""
 
-#: includes/admin/admin-extras.php:262
+#: includes/admin/admin-extras.php:258
 msgid "Remove Build Group"
 msgstr ""
 
-#: includes/admin/admin-extras.php:266
+#: includes/admin/admin-extras.php:262
 msgid "Remove Manage Content Items"
 msgstr ""
 
-#: includes/admin/admin-extras.php:270
+#: includes/admin/admin-extras.php:266
 msgid "Remove WP Widget Items"
 msgstr ""
 
-#: includes/admin/admin-extras.php:274
+#: includes/admin/admin-extras.php:270
 msgid "Remove WP Comments Item"
 msgstr ""
 
-#: includes/admin/admin-extras.php:278
+#: includes/admin/admin-extras.php:274
 msgid "Remove Site Group"
 msgstr ""
 
-#: includes/admin/admin-extras.php:282
+#: includes/admin/admin-extras.php:278
 msgid "Remove WP Updates Item"
 msgstr ""
 
-#: includes/admin/admin-extras.php:286
+#: includes/admin/admin-extras.php:282
 msgid "Remove WP New Content Group"
 msgstr ""
 
-#: includes/admin/admin-extras.php:290
+#: includes/admin/admin-extras.php:286
 msgid "Remove Reusable Blocks Admin Menu"
 msgstr ""
 
@@ -222,155 +222,155 @@ msgctxt "MainWP component title"
 msgid "Server Info"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:161
+#: includes/admin/tbexmwp-settings.php:163
 msgid "MainWP Components as Toolbar Items"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:354
+#: includes/admin/tbexmwp-settings.php:356
 msgid "What title to display for the Websites component?"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:392
+#: includes/admin/tbexmwp-settings.php:394
 msgid "List all Child Sites as sub items of Websites?"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:404
+#: includes/admin/tbexmwp-settings.php:406
 msgid "List all Groups as sub items of Websites?"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:416
+#: includes/admin/tbexmwp-settings.php:418
 msgid "List all Statuses as sub items of Websites?"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:799
+#: includes/admin/tbexmwp-settings.php:801
 msgid "Various Tweaks"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:806
+#: includes/admin/tbexmwp-settings.php:808
 msgid "Set background color, icon and special text for Toolbar"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:815
+#: includes/admin/tbexmwp-settings.php:817
 #, php-format
 msgid "Remove %s Group from Toolbar Extras?"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:815
+#: includes/admin/tbexmwp-settings.php:817
 msgid "Build"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:824
+#: includes/admin/tbexmwp-settings.php:826
 msgid "Remove Manage Content items from Toolbar Extras?"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:833
+#: includes/admin/tbexmwp-settings.php:835
 msgid "Remove WP Widgets items from Toolbar Extras?"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:842
+#: includes/admin/tbexmwp-settings.php:844
 msgid "Remove Comments Item (WordPress default)?"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:851
+#: includes/admin/tbexmwp-settings.php:853
 msgid "Remove Site Group (WordPress default)?"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:860
+#: includes/admin/tbexmwp-settings.php:862
 msgid "Remove Updates Item (WordPress default)?"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:869
+#: includes/admin/tbexmwp-settings.php:871
 msgid "Remove New Content Group (WordPress default)?"
 msgstr ""
 
 #. translators: %s - label, "Blocks"
-#: includes/admin/tbexmwp-settings.php:879
+#: includes/admin/tbexmwp-settings.php:881
 #, php-format
 msgid "Remove Left-hand %s Admin Menu?"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:879
+#: includes/admin/tbexmwp-settings.php:881
 msgid "Blocks"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:888
+#: includes/admin/tbexmwp-settings.php:890
 msgid "Unload all MainWP Translations?"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:897
+#: includes/admin/tbexmwp-settings.php:899
 msgid "Unload Toolbar Extras for MainWP Add-On Translations?"
 msgstr ""
 
 #. translators: Settings tab title in WP-Admin
-#: includes/admin/tbexmwp-settings.php:1118
-#: includes/admin/tbexmwp-settings.php:1343
+#: includes/admin/tbexmwp-settings.php:1120
+#: includes/admin/tbexmwp-settings.php:1345
 msgctxt "Plugin settings tab title"
 msgid "MainWP"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:1174
+#: includes/admin/tbexmwp-settings.php:1176
 msgctxt "Admin menu title"
 msgid "MainWP Toolbar"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:1175
+#: includes/admin/tbexmwp-settings.php:1177
 msgctxt "Admin menu title"
 msgid "MainWP Plugins"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:1197
+#: includes/admin/tbexmwp-settings.php:1199
 msgctxt "MainWP admin menu title"
 msgid "Toolbar for MainWP"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:1225
+#: includes/admin/tbexmwp-settings.php:1227
 msgctxt "MainWP admin menu title"
 msgid "Site Health"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:1232
+#: includes/admin/tbexmwp-settings.php:1234
 msgctxt "MainWP admin menu title"
 msgid "Debug Info"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:1264
+#: includes/admin/tbexmwp-settings.php:1266
 msgctxt "MainWP admin menu title"
 msgid "Activity Log"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:1285
+#: includes/admin/tbexmwp-settings.php:1287
 msgid "Add-On"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:1290
+#: includes/admin/tbexmwp-settings.php:1292
 #, php-format
 msgid ""
 "This Add-On brings the components of the %s to your Toolbar, including "
 "current active MainWP Add-Ons."
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:1293
+#: includes/admin/tbexmwp-settings.php:1295
 msgid ""
 "Below you will find plenty of settings to customize your experience to "
 "manage your websites with MainWP even faster."
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:1316
+#: includes/admin/tbexmwp-settings.php:1318
 msgctxt "For Toolbar Extras Plugin"
 msgid "MainWP Add-On"
 msgstr ""
 
 #. translators: Title attribute for Toolbar Extras "MainWP Add-On" settings link
-#: includes/admin/tbexmwp-settings.php:1321
+#: includes/admin/tbexmwp-settings.php:1323
 msgctxt "For Toolbar Extras Plugin"
 msgid "MainWP Dashboard Add-On for Toolbar Extras"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:1342
+#: includes/admin/tbexmwp-settings.php:1344
 msgid "Go to the Toolbar Extras MainWP Add-On settings tab"
 msgstr ""
 
-#: includes/admin/tbexmwp-settings.php:1366
+#: includes/admin/tbexmwp-settings.php:1368
 msgid "MainWP Green"
 msgstr ""
 
