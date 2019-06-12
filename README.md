@@ -279,7 +279,7 @@ Yes, technically it works fine in Multisite, you could even activate it Network-
 ([For the full changelog of this plugin visit its website at ToolbarExtras.com](https://toolbarextras.com/changelog/))
 
 
-### 🎉 1.0.0 - 2019-06-?? 
+### 🎉 1.0.0 - 2019-06-12 
 * *Plugin launch. Everything's new!*
 * News: 10 Free MainWP extensions supported/ integrated
 * News: 20 Premium MainWP extensions supported/ integrated

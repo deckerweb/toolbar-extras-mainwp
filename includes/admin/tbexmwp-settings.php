@@ -143,7 +143,9 @@ function ddw_tbexmwp_register_settings_mainwp() {
 	$plugin_inactive = ' plugin-inactive';
 
 	/** Status for "Remove Blocks Admin Menu" setting */
-	$status_blocks_admin_menu = ( ddw_tbex_is_block_editor_active() && ddw_tbex_is_block_editor_wanted() ) ? ' blocks-admin-menu' : $plugin_inactive;
+	$status_blocks_admin_menu = ( ddw_tbexmwp_is_toolbar_extras_active() && ( ddw_tbex_is_block_editor_active() && ddw_tbex_is_block_editor_wanted() ) )
+		? ' blocks-admin-menu'
+		: $plugin_inactive;
 
 	/** Settings args */
 	$tbexmwp_settings_args = array( 'sanitize_callback' => 'ddw_tbexmwp_validate_settings_mainwp' );

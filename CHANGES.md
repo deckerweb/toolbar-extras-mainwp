@@ -13,7 +13,7 @@
 
 ## Changelog of the Plugin
 
-### 1.0.0 - 2019-06-??
+### 1.0.0 - 2019-06-12
 
 * *Plugin launch. Everything's new!*
 * News: 10 Free MainWP extensions supported/ integrated

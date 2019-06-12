@@ -156,10 +156,10 @@ function ddw_tbexmwp_filter_plugins_mainwp( $plugin_menu ) {
 
 		foreach ( $plugins[ 'all' ] as $plugin_slug => $plugin_data ) {
 
-			if ( FALSE !== strpos( $plugin_data[ 'AuthorName' ], 'MainWP' )
-				|| FALSE !== strpos( $plugin_data[ 'PluginName' ], 'MainWP' )
-				|| FALSE !== strpos( $plugin_data[ 'Description' ], 'MainWP' )
-				|| FALSE !== strpos( $plugin_data[ 'AuthorName' ], 'WP Fix It' )
+			if ( ( isset( $plugin_data[ 'AuthorName' ] ) && FALSE !== strpos( $plugin_data[ 'AuthorName' ], 'MainWP' ) )
+				|| ( isset( $plugin_data[ 'PluginName' ] ) && FALSE !== strpos( $plugin_data[ 'PluginName' ], 'MainWP' ) )
+				|| ( isset( $plugin_data[ 'Description' ] ) && FALSE !== strpos( $plugin_data[ 'Description' ], 'MainWP' ) )
+				|| ( isset( $plugin_data[ 'AuthorName' ] ) && FALSE !== strpos( $plugin_data[ 'AuthorName' ], 'WP Fix It' ) )
 			) {
 
 				$plugins[ 'mwpplugins' ][ $plugin_slug ]             = $plugins[ 'all' ][ $plugin_slug ];
