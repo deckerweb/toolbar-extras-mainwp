@@ -9,7 +9,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Toolbar Extras for MainWP
- * Plugin URI:        https://github.com/deckerweb/toolbar-extras-mainwp
+ * Plugin URI:        https://toolbarextras.com/addons/mainwp-dashboard/
  * Description:       Spice up your WordPress Toolbar for your MainWP Dashboard: Make managing your Websites via MainWP even faster with enhanced quick jump links. - This is an Add-On plugin for Toolbar Extras.
  * Version:           1.0.0
  * Author:            David Decker - DECKERWEB
