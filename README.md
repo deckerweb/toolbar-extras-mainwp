@@ -21,7 +21,7 @@ This smart WordPress plugin just adds missed and **very useful admin links** for
 
 I use this Add-On for more than a half year already and it feels totally natural for MainWP. Now I am more focused, faster with my daily tasks and it is customized all the way I wanted it. Since I am using this MainWP Add-On for Toolbar Extras, I am more than happy and have never looked back! ;-) *-- says David Decker, plugin developer*
 
-ℹ️ **Essential:** Toolbar Extras for MainWP is an **Add-On** plugin, it **requires** the base plugin "Toolbar Extras".  
+ℹ️ **Essential:** Toolbar Extras for MainWP Dashboard is an **Add-On** plugin, it **requires** the base plugin "Toolbar Extras".  
 ℹ️ **Important:** "MainWP Dashboard" is a **free** plugin for WordPress by MainWP.  
 ℹ️ **Disclaimer:** Toolbar Extras for MainWP is an **independent** free plugin by David Decker from DECKERWEB. It does **not** represent MainWP.
 
@@ -47,6 +47,8 @@ I use this Add-On for more than a half year already and it feels totally natural
 * You can disable the additional MainWP left-hand menu, and their footer area - now all resources are accessable via the Toolbar
 * Get more focused, save mouse travel and scrolling time, be more productive!
 * Get your website maintenance work done even faster - let the Toolbar work for you!
+* Any items are only loaded if needed
+* Fully internationalized and translateable
 
 
 ### 🔌 Supported/ Integrated free MainWP Extensions 
@@ -281,8 +283,8 @@ Yes, technically it works fine in Multisite, you could even activate it Network-
 
 ### 🎉 1.0.0 - 2019-06-12 
 * *Plugin launch. Everything's new!*
-* News: 10 Free MainWP extensions supported/ integrated
-* News: 20 Premium MainWP extensions supported/ integrated
+* New: 10 Free MainWP extensions supported/ integrated
+* New: 20 Premium MainWP extensions supported/ integrated
 
 
 ### ⚡ 0.9.0 - 2019-06-11

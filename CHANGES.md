@@ -16,8 +16,8 @@
 ### 1.0.0 - 2019-06-12
 
 * *Plugin launch. Everything's new!*
-* News: 10 Free MainWP extensions supported/ integrated
-* News: 20 Premium MainWP extensions supported/ integrated
+* New: 10 Free MainWP extensions supported/ integrated
+* New: 20 Premium MainWP extensions supported/ integrated
 
 
 ### ⚡ 0.9.0 - 2019-06-11
