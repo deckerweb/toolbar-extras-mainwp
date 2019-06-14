@@ -1000,7 +1000,7 @@ function ddw_tbexmwp_items_mainwp_users() {
 				'id'     => 'tbexmwp-users-manage',
 				'parent' => 'tbexmwp-users',
 				'title'  => esc_attr__( 'Manage Users', 'toolbar-extras-mainwp' ),
-				'href'   => esc_url( admin_url( 'admin.php?page=ThemesManage' ) ),
+				'href'   => esc_url( admin_url( 'admin.php?page=UserBulkManage' ) ),
 				'meta'   => array(
 					'target' => '',
 					'title'  => esc_attr__( 'Manage Users', 'toolbar-extras-mainwp' ),

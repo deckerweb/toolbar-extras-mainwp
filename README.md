@@ -19,6 +19,9 @@ Managing Websites with MainWP? Your work will get easier & faster with this Tool
 🚀 Quick Access to Your Website Management with MainWP Dashboard directly from your Toolbar. Use the components you want and be faster with your daily or weekly tasks in MainWP.  
 This smart WordPress plugin just adds missed and **very useful admin links** for MainWP Dashboard to your Toolbar / Admin Bar. Save mouse travel and scrolling time. Access updates tasks, your Child Websites, settings and extensions way easier and faster from this one central hub at the top of your Dashboard installation.
 
+[![Video of Plugin's Live Demo and Walkthrough](https://img.youtube.com/vi/7CRivf7uRE0/0.jpg)](https://www.youtube.com/watch?v=7CRivf7uRE0)
+[**original video link**](https://www.youtube.com/watch?v=7CRivf7uRE0) *by plugin developer David Decker*
+
 I use this Add-On for more than a half year already and it feels totally natural for MainWP. Now I am more focused, faster with my daily tasks and it is customized all the way I wanted it. Since I am using this MainWP Add-On for Toolbar Extras, I am more than happy and have never looked back! ;-) *-- says David Decker, plugin developer*
 
 ℹ️ **Essential:** Toolbar Extras for MainWP Dashboard is an **Add-On** plugin, it **requires** the base plugin "Toolbar Extras".  
@@ -152,6 +155,9 @@ You can also contribute code-wise via our [Toolbar Extras for MainWP GitHub Repo
 
 
 ### Installation 
+
+[![Video of how to Install & Setup this Add-On and set the first important recommended settings - Live Walkthrough](https://img.youtube.com/vi/B-Xg3jDhqRs/0.jpg)](https://www.youtube.com/watch?v=B-Xg3jDhqRs)
+[**original video link**](https://www.youtube.com/watch?v=B-Xg3jDhqRs) *by plugin developer David Decker*
 
 1. Install using the WordPress built-in Plugin installer (via **Plugins > Add New** - search for `toolbar extras mainwp`), or extract the ZIP file and drop the contents in the `wp-content/plugins/` directory of your WordPress installation.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
