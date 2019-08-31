@@ -350,6 +350,32 @@ function ddw_tbexmwp_settings_cb_mwp_list_child_sites() {
 
 
 /**
+ * Setting (Select): Which Admin URL variant for Child Sites?
+ *   item?
+ *
+ * @since 1.1.0
+ */
+function ddw_tbexmwp_settings_cb_mwp_child_admin_url() {
+
+	$tbexmwp_options = get_option( 'tbex-options-mainwp' );
+
+	?>
+		<select name="tbex-options-mainwp[mwp_child_admin_url]" id="tbex-options-mainwp-mwp_child_admin_url">
+			<option value="mainwp" <?php selected( sanitize_key( $tbexmwp_options[ 'mwp_child_admin_url' ] ), 'mainwp' ); ?>><?php _e( 'MainWP-generated URL with automatic Admin login', 'toolbar-extras-mainwp' ); ?></option>
+			<option value="regularwp" <?php selected( sanitize_key( $tbexmwp_options[ 'mwp_child_admin_url' ] ), 'regularwp' ); ?>><?php _e( 'Regular WP-Admin URL', 'toolbar-extras-mainwp' ); ?></option>
+		</select>
+		<label for="tbex-options-mainwp[mwp_child_admin_url]">
+			<span class="description"><?php echo sprintf( __( 'Default: %s', 'toolbar-extras-mainwp' ), '<code>' . __( 'MainWP-generated URL', 'toolbar-extras-mainwp' ) . '</code>' ); ?></span>
+		</label>
+		<p class="description">
+			<?php _e( 'If you do not want the automatic login feature by MainWP then please set to the regular WP variant and login manually yourself.', 'toolbar-extras-mainwp' ); ?>
+		</p>
+	<?php
+
+}  // end function
+
+
+/**
  * Setting (Select): Display "Groups" as sub items for "Websites" top-level item?
  *
  * @since 1.0.0

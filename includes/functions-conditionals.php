@@ -47,6 +47,42 @@ function ddw_tbexmwp_is_mainwp_active() {
 
 
 /**
+ * Check for MainWP Dashboard version branch 3 (3.x).
+ *
+ * @since 1.1.0
+ *
+ * @return bool TRUE if is MainWP Dashboard plugin version 3.x, FALSE otherwise.
+ */
+function ddw_tbexmwp_is_mainwp3() {
+
+	if ( ! defined( 'MAINWP_VERSION' ) ) {
+		return FALSE;
+	}
+
+	return version_compare( MAINWP_VERSION, '3.9.9', '<=' );
+
+}  // end function
+
+
+/**
+ * Check for MainWP Dashboard version branch 4 (4.x).
+ *
+ * @since 1.1.0
+ *
+ * @return bool TRUE if is MainWP Dashboard plugin version 4.x, FALSE otherwise.
+ */
+function ddw_tbexmwp_is_mainwp4() {
+
+	if ( ! defined( 'MAINWP_VERSION' ) ) {
+		return FALSE;
+	}
+
+	return version_compare( MAINWP_VERSION, '4.0-beta', '>=' );
+
+}  // end function
+
+
+/**
  * Is the Activity Log for MainWP plugin active or not?
  *
  * @since 1.0.0

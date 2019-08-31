@@ -64,7 +64,7 @@ function ddw_tbexmwp_items_mainwp_child_sites() {
 
 	/** Loop through all Child Sites */
 	foreach ( $websites as $website ) {
-		
+
 		/** Set defaults */
 		$favicon_img = '';
 		$favicon_url = '';
@@ -121,12 +121,19 @@ function ddw_tbexmwp_items_mainwp_child_sites() {
 					)
 				);
 
+				$child_admin_url = admin_url( 'admin.php?page=SiteOpen&newWindow=yes&websiteid=' . $site_id );
+				$url_variant     = ddw_tbex_get_option( 'mainwp', 'mwp_child_admin_url' );
+
+				if ( 'regularwp' === $url_variant ) {
+					$child_admin_url = $website->siteurl . '/wp-admin/';
+				}
+
 				$GLOBALS[ 'wp_admin_bar' ]->add_node(
 					array(
 						'id'     => 'my-mainwp-sites-' . $site_id . '-wpadmin',
 						'parent' => 'my-mainwp-sites-' . $site_id,
 						'title'  => esc_attr__( 'Open WP-Admin', 'toolbar-extras-mainwp' ),
-						'href'   => esc_url( $website->siteurl . '/wp-admin/' ),
+						'href'   => esc_url( $child_admin_url ),
 						'meta'   => array(
 							'target' => ddw_tbex_meta_target(),
 							'title'  => esc_attr__( 'Open WP-Admin', 'toolbar-extras-mainwp' ) . ': ' . $site_name

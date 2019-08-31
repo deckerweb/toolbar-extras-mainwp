@@ -83,7 +83,7 @@ function ddw_tbexmwp_delete_options_transients() {
  * @uses ddw_tbex_delete_options_transients()
  *
  * @param array $blogs
- * @param int 	$blog
+ * @param int $blog
  *
  * @global $wpdb
  */

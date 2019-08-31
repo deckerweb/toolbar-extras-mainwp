@@ -55,6 +55,7 @@ function ddw_tbexmwp_default_options_mainwp() {
 			'mwp_list_child_sites'         => 'yes',	// on by default (sub items)
 			'mwp_list_groups'              => 'yes',	// on by default (sub items)
 			'mwp_list_statuses'            => 'yes',	// on by default (sub items)
+			'mwp_child_admin_url'          => 'mainwp',	// use MainWP URL variant (including login)
 
 			'mwp_item_display_content'     => 'yes',
 			'mwp_item_icon_content'        => 'dashicons-welcome-write-blog',	// Dashicon \f119
@@ -397,6 +398,17 @@ function ddw_tbexmwp_register_settings_mainwp() {
 					'tbexmwp-section-mainwp-items',
 					array(
 						'class' => 'tbexmwp-setting-mwp-list-child-sites',
+					)
+				);
+
+				add_settings_field(
+					'mwp_child_admin_url',
+					__( 'Choose Admin URL variant for Child Sites', 'toolbar-extras-mainwp' ),
+					'ddw_tbexmwp_settings_cb_mwp_child_admin_url',
+					'tbexmwp_group_mainwp',
+					'tbexmwp-section-mainwp-items',
+					array(
+						'class' => 'tbexmwp-setting-mwp-child-admin-url',
 					)
 				);
 
@@ -993,6 +1005,7 @@ function ddw_tbexmwp_validate_settings_mainwp( $input ) {
 		'mwp_item_display_settings',
 		'mwp_item_display_server',
 		'mwp_item_title_websites',
+		'mwp_child_admin_url',
 		'mwp_list_child_sites',
 		'mwp_list_groups',
 		'mwp_list_statuses',
@@ -1052,6 +1065,7 @@ function ddw_tbexmwp_pass_toggable_settings( array $toggles ) {
 			'websites_name'       => array( '#tbex-options-mainwp-mwp_item_title_websites', '.tbexmwp-setting-mwp-item-name-websites', 'custom' ),
 			'websites_priority'   => array( '#tbex-options-mainwp-mwp_item_display_websites', '.tbexmwp-setting-mwp-item-priority-websites', 'yes' ),
 			'websites_list'       => array( '#tbex-options-mainwp-mwp_item_display_websites', '.tbexmwp-setting-mwp-list-child-sites', 'yes' ),
+			'websites_aurl'       => array( '#tbex-options-mainwp-mwp_list_child_sites', '.tbexmwp-setting-mwp-child-admin-url', 'yes' ),
 			'groups_list'         => array( '#tbex-options-mainwp-mwp_item_display_websites', '.tbexmwp-setting-mwp-list-groups', 'yes' ),
 			'statuses_list'       => array( '#tbex-options-mainwp-mwp_item_display_websites', '.tbexmwp-setting-mwp-list-statuses', 'yes' ),
 
@@ -1152,7 +1166,8 @@ function ddw_tbexmwp_render_settings_tab_mainwp() {
 
 add_action( 'admin_menu', 'ddw_tbexmwp_add_submenu_for_mainwp' );
 /**
- * Add additional admin menu items to make Toolbar settings more accessable.
+ * Add additional admin menu items for MainWP Dashboard v3.x to make Toolbar
+ *   settings more accessable.
  *
  *   Info - available MainWP methods:
  *   - public static function add_sub_left_menu( $title, $parent_key, $slug, $href, $icon = '', $desc = '' )
@@ -1198,44 +1213,125 @@ function ddw_tbexmwp_add_submenu_for_mainwp() {
 	 */
 	$mainwp_menu_title = esc_html_x( 'Toolbar for MainWP', 'MainWP admin menu title', 'toolbar-extras-mainwp' );
 
-	MainWP_System::add_sub_left_menu(
-		$mainwp_menu_title,
-		'mainwp_tab',
-		'toolbar-extras&tab=mainwp',
-		'options-general.php?page=toolbar-extras&tab=mainwp',
-		'<i class="fa fa-bars"></i>'
-	);
+	if ( method_exists( 'MainWP_System', 'add_sub_left_menu' ) ) {
 
-	MainWP_System::add_sub_left_menu(
-		$menu_title_plugins,
-		'mainwp_tab',
-		'plugins&plugin_status=mwpplugins',
-		esc_url( network_admin_url( 'plugins.php?plugin_status=mwpplugins' ) ),
-		'<i class="fa fa-plug"></i>'
-	);
+		MainWP_System::add_sub_left_menu(
+			$mainwp_menu_title,
+			'mainwp_tab',
+			'toolbar-extras&tab=mainwp',
+			'options-general.php?page=toolbar-extras&tab=mainwp',
+			'<i class="fa fa-bars"></i>'
+		);
 
-	MainWP_System::add_sub_left_menu(
-		$mainwp_menu_title,
-		'Extensions',
-		'toolbar-extras&tab=mainwp',
-		'options-general.php?page=toolbar-extras&tab=mainwp',
-		'<i class="fa fa-bars"></i>'
-	);
+		MainWP_System::add_sub_left_menu(
+			$menu_title_plugins,
+			'mainwp_tab',
+			'plugins&plugin_status=mwpplugins',
+			esc_url( network_admin_url( 'plugins.php?plugin_status=mwpplugins' ) ),
+			'<i class="fa fa-plug"></i>'
+		);
+
+		MainWP_System::add_sub_left_menu(
+			$mainwp_menu_title,
+			'Extensions',
+			'toolbar-extras&tab=mainwp',
+			'options-general.php?page=toolbar-extras&tab=mainwp',
+			'<i class="fa fa-bars"></i>'
+		);
+
+	}  // end if
 
 	/** Add to MainWP Sub-Sub-Menus */
-	MainWP_System::add_sub_sub_left_menu(
-		esc_attr_x( 'Site Health', 'MainWP admin menu title', 'toolbar-extras-mainwp' ),
-		'ServerInformation',
-		'sub-site-health',
-		esc_url( admin_url( 'site-health.php' ) )
+	if ( method_exists( 'MainWP_System', 'add_sub_sub_left_menu' ) ) {
+
+		MainWP_System::add_sub_sub_left_menu(
+			esc_attr_x( 'Site Health', 'MainWP admin menu title', 'toolbar-extras-mainwp' ),
+			'ServerInformation',
+			'sub-site-health',
+			esc_url( admin_url( 'site-health.php' ) )
+		);
+
+		MainWP_System::add_sub_sub_left_menu(
+			esc_attr_x( 'Debug Info', 'MainWP admin menu title', 'toolbar-extras-mainwp' ),
+			'ServerInformation',
+			'sub-site-health&tab=debug',
+			esc_url( admin_url( 'site-health.php?tab=debug' ) )
+		);
+
+	}  // end if
+
+}  // end function
+
+
+add_action( 'admin_menu', 'ddw_tbexmwp_add_toolbar_menu_for_mainwp4' );
+/**
+ * Add additional admin menu items for MainWP Dashboard v4.x to make Toolbar
+ *   settings more accessable.
+ *
+ * @since 1.1.0
+ *
+ * @uses MainWP_Menu::add_left_menu()
+ * @uses MainWP_Menu::init_subpages_left_menu()
+ * @uses MainWP_Menu::is_disable_menu_item()
+ *
+ * @param array $sub_pages
+ */
+function ddw_tbexmwp_add_toolbar_menu_for_mainwp4( $sub_pages = array() ) {
+
+	/** Bail early if needed methods don't exist */
+	if ( ! method_exists( 'MainWP_Menu', 'add_left_menu' )
+		|| ! method_exists( 'MainWP_Menu', 'init_subpages_left_menu' )
+		|| ! method_exists( 'MainWP_Menu', 'is_disable_menu_item' )
+	) {
+		return;
+	}
+
+	MainWP_Menu::add_left_menu(
+		array(
+			'title'		 => __( 'Toolbar Extras', 'toolbar-extras-mainwp' ),
+			'parent_key' => 'mainwp_tab',
+			'slug'		 => 'Toolbar_Extras',
+			'href'		 => esc_url( admin_url( 'options-general.php?page=toolbar-extras&tab=mainwp' ) ),
+			'icon'		 => '<i class="cogs icon"></i>'
+		),
+		1	// level 1
 	);
 
-	MainWP_System::add_sub_sub_left_menu(
-		esc_attr_x( 'Debug Info', 'MainWP admin menu title', 'toolbar-extras-mainwp' ),
-		'ServerInformation',
-		'sub-site-health&tab=debug',
-		esc_url( admin_url( 'site-health.php?tab=debug' ) )
+	$init_sub_subleftmenu = array(
+		array(
+			'title'		 => __( 'MainWP Toolbar', 'toolbar-extras-mainwp' ),
+			'parent_key' => 'Toolbar_Extras',
+			'href'		 => esc_url( admin_url( 'options-general.php?page=toolbar-extras&tab=mainwp' ) ),
+			'slug'		 => 'TBEXMWP_MainWP_Toolbar',
+			'right'		 => ''
+		),
+		array(
+			'title'		 => __( 'More Toolbar Options', 'toolbar-extras-mainwp' ),
+			'parent_key' => 'Toolbar_Extras',
+			'href'		 => esc_url( admin_url( 'options-general.php?page=toolbar-extras' ) ),
+			'slug'		 => 'TBEXMWP_Toolbar_More',
+			'right'		 => ''
+		),
+		array(
+			'title'		 => __( 'MainWP Plugins/ Extensions', 'toolbar-extras-mainwp' ),
+			'parent_key' => 'Toolbar_Extras',
+			'href'		 => esc_url( network_admin_url( 'plugins.php?plugin_status=mwpplugins' ) ),
+			'slug'		 => 'TBEXMWP_MainWP_Plugins',
+			'right'		 => ''
+		),
 	);
+
+	MainWP_Menu::init_subpages_left_menu( $sub_pages, $init_sub_subleftmenu, 'Toolbar_Extras', 'Toolbar_Extras' );
+
+	foreach ( $init_sub_subleftmenu as $item ) {
+
+		if ( MainWP_Menu::is_disable_menu_item( 3, $item[ 'slug' ] ) ) {
+			continue;
+		}
+
+		MainWP_Menu::add_left_menu( $item, 2 );
+
+	}  // end foreach
 
 }  // end function
 
@@ -1245,7 +1341,7 @@ add_action( 'admin_menu', 'ddw_tbexmwp_maybe_add_submenu_for_activitylog', -1 );
  * Optionally add "Activity Log" extension as sub-sub item for Child Sites
  *   branded MainWP Admin Menu.
  *
- *   Note: We need this as extra hook/function to tage advantage of a different
+ *   Note: We need this as extra hook/function to take advantage of a different
  *         hook priority.
  *
  * @since 1.0.0
@@ -1262,13 +1358,17 @@ function ddw_tbexmwp_maybe_add_submenu_for_activitylog() {
 		return;
 	}
 
-	MainWP_System::add_sub_left_menu(
-		esc_attr_x( 'Activity Log', 'MainWP admin menu title', 'toolbar-extras-mainwp' ),
-		'childsites_menu',
-		'activity-log',
-		esc_url( admin_url( 'admin.php?page=Extensions-Activity-Log-Mainwp' ) ),
-		'<i class="fa fa-info-circle"></i>'
-	);
+	if ( method_exists( 'MainWP_System', 'add_sub_left_menu' ) ) {
+
+		MainWP_System::add_sub_left_menu(
+			esc_attr_x( 'Activity Log', 'MainWP admin menu title', 'toolbar-extras-mainwp' ),
+			'childsites_menu',
+			'activity-log',
+			esc_url( admin_url( 'admin.php?page=Extensions-Activity-Log-Mainwp' ) ),
+			'<i class="fa fa-info-circle"></i>'
+		);
+
+	}  // end if
 
 }  // end function
 

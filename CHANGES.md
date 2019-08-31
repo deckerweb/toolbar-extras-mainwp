@@ -13,6 +13,16 @@
 
 ## Changelog of the Plugin
 
+### 🎉 1.1.0 - 2019-08-31
+
+* *New: Successfully tested with MainWP Dashboard 4.x Beta/RC releases*
+* New: Added full compatibility with MainWP Dashboard 4.x version
+* New: Added new setting to choose admin URL scheme for Child Sites
+* Tweak: Changed default admin URL scheme for Child Sites, using MainWP Dashboard helper function to log in directly (can be changed in plugin settings if not wanted)
+* Tweak: Updated `.pot` file plus all German translations (formal, informal) and language packs
+* Fix: Correct "Manage Users" link
+
+
 ### 🎉 1.0.0 - 2019-06-12
 
 * *Plugin launch. Everything's new!*

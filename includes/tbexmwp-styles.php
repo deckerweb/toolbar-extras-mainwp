@@ -62,6 +62,61 @@ function ddw_tbexmwp_addon_styles() {
 			.mainwp-popup-content tr:hover {
 				background-color: #eee;
 			}
+
+
+			.mainwp-ui-leftmenu.mainwp-ui-page #wpadminbar {
+				display: block;
+			}
+
+			html.wp-toolbar{
+				padding-top: 32px;
+			}
+
+			.mainwp-nav-wrap,
+			.ui.sticky.bound.top,
+			.ui.sticky.fixed.top {
+				margin-top: 32px !important;
+			}
+		</style>
+	<?php
+
+}  // end function
+
+
+add_action( 'wp_head', 'ddw_tbexmwp_addon_styles_mainwp4', 100 );
+add_action( 'admin_head', 'ddw_tbexmwp_addon_styles_mainwp4', 100 );
+/**
+ * Add the needed special CSS styles for MainWP Dashboard v4.x only.
+ *
+ * @since 1.1.0
+ *
+ * @uses ddw_tbexmwp_is_mainwp4()
+ *
+ * @return string CSS styling rules.
+ */
+function ddw_tbexmwp_addon_styles_mainwp4() {
+
+	/** Bail early if not on MainWP v4.x */
+	if ( ! ddw_tbexmwp_is_mainwp4() ) {
+		return;
+	}
+
+	/** Add our few CSS styles inline: */
+	?>
+		<style type="text/css">
+			.mainwp-ui-leftmenu.mainwp-ui-page #wpadminbar {
+				display: block;
+			}
+
+			html.wp-toolbar{
+				padding-top: 32px;
+			}
+
+			.mainwp-nav-wrap,
+			.ui.sticky.bound.top,
+			.ui.sticky.fixed.top {
+				margin-top: 32px !important;
+			}
 		</style>
 	<?php
 

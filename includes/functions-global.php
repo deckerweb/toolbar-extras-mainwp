@@ -156,7 +156,7 @@ function ddw_tbexmwp_get_mainwp_websites() {
 	 * @since 1.0.0
 	 */
 	$where         = MainWP_DB::Instance()->getWhereAllowAccessSites( 'wp' );
-	$options_extra = MainWP_DB::Instance()->getSQLWebsitesOptionsExtra();
+	$options_extra = method_exists( 'MainWP_DB', 'getSQLWebsitesOptionsExtra' ) ? MainWP_DB::Instance()->getSQLWebsitesOptionsExtra() : '';
 	$websites      = $GLOBALS[ 'wpdb' ]->get_results( 'SELECT wp.id,wp.name,wp.url,wp.siteurl' . $options_extra . ' FROM `' . $GLOBALS[ 'wpdb' ]->prefix . 'mainwp_wp` wp WHERE 1 ' . $where );
 
 	return $websites;

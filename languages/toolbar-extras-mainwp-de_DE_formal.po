@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Toolbar Extras for MainWP\n"
-"POT-Creation-Date: 2019-06-12 10:25+0200\n"
-"PO-Revision-Date: 2019-06-12 10:25+0200\n"
+"POT-Creation-Date: 2019-08-30 01:00+0200\n"
+"PO-Revision-Date: 2019-08-31 23:34+0200\n"
 "Last-Translator: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
 "Language-Team: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
 "Language: de_DE@formal\n"
@@ -21,63 +21,63 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: includes/admin/admin-extras.php:39
+#: includes/admin/admin-extras.php:41
 msgid "First Step: Setup Environment to use the plugin"
 msgstr "Erster Schritt: Umgebung zur Verwendung des Plugins einrichten"
 
-#: includes/admin/admin-extras.php:40
+#: includes/admin/admin-extras.php:42
 msgid "First Step: Setup Environment"
 msgstr "Erster Schritt: Umgebung einrichten"
 
-#: includes/admin/admin-extras.php:51 includes/admin/tbexmwp-settings.php:1293
+#: includes/admin/admin-extras.php:53 includes/admin/tbexmwp-settings.php:1393
 msgid "MainWP Dashboard"
 msgstr "MainWP Dashboard"
 
-#: includes/admin/admin-extras.php:52
+#: includes/admin/admin-extras.php:54
 msgid "My MainWP"
 msgstr "Mein MainWP"
 
-#: includes/admin/admin-extras.php:58
+#: includes/admin/admin-extras.php:60
 msgid "Toolbar Settings for MainWP"
 msgstr "Toolbar-Einstellungen für MainWP"
 
-#: includes/admin/admin-extras.php:59
+#: includes/admin/admin-extras.php:61
 msgid "Toolbar Settings"
 msgstr "Toolbar-Einstellungen"
 
-#: includes/admin/admin-extras.php:112
+#: includes/admin/admin-extras.php:114
 msgctxt "Plugins page listing"
 msgid "Support"
 msgstr "Support"
 
-#: includes/admin/admin-extras.php:120
+#: includes/admin/admin-extras.php:122
 msgctxt "Plugins page listing"
 msgid "Facebook Group"
 msgstr "Facebook-Gruppe"
 
-#: includes/admin/admin-extras.php:127
+#: includes/admin/admin-extras.php:129
 msgctxt "Plugins page listing"
 msgid "Translations"
 msgstr "Übersetzungen"
 
-#: includes/admin/admin-extras.php:135
+#: includes/admin/admin-extras.php:137
 msgctxt "Plugins page listing"
 msgid "Donate"
 msgstr "Spenden"
 
-#: includes/admin/admin-extras.php:142
+#: includes/admin/admin-extras.php:144
 msgctxt "Plugins page listing"
 msgid "Join our Newsletter"
 msgstr "Newsletter jetzt!"
 
 #. translators: %s - 5 stars icons
-#: includes/admin/admin-extras.php:188
+#: includes/admin/admin-extras.php:190
 #, php-format
 msgid "%s rating"
 msgstr "%s Bewertung"
 
 #. translators: 1 - Toolbar Extras for MainWP / 2 - label "5 star rating"
-#: includes/admin/admin-extras.php:194
+#: includes/admin/admin-extras.php:196
 #, php-format
 msgid ""
 "Enjoyed %1$s? Please leave us a %2$s. We really appreciate your support!"
@@ -86,74 +86,74 @@ msgstr ""
 "Unterstützung!"
 
 #. Plugin Name of the plugin/theme
-#: includes/admin/admin-extras.php:195 includes/admin/tbexmwp-settings.php:1287
+#: includes/admin/admin-extras.php:197 includes/admin/tbexmwp-settings.php:1387
 #: includes/admin/views/help-content-addon.php:32
 #: includes/admin/views/help-content-addon.php:60 uninstall.php:42
 #: uninstall.php:52
 msgid "Toolbar Extras for MainWP"
 msgstr "Toolbar Extras für MainWP"
 
-#: includes/admin/admin-extras.php:228
+#: includes/admin/admin-extras.php:230
 msgid "Toolbar Extras for MainWP Dashboard"
 msgstr "Toolbar Extras für MainWP Dashboard"
 
-#: includes/admin/admin-extras.php:228
+#: includes/admin/admin-extras.php:230
 msgid "Add-On Plugin"
 msgstr "Add-On-Plugin"
 
-#: includes/admin/admin-extras.php:234
+#: includes/admin/admin-extras.php:236
 msgid "Add-On Plugin version"
 msgstr "Add-On Plugin-Version"
 
-#: includes/admin/admin-extras.php:238
+#: includes/admin/admin-extras.php:240
 msgid "Required Base Plugin version"
 msgstr "Erforderliche Version des Basis-Plugins"
 
-#: includes/admin/admin-extras.php:242
+#: includes/admin/admin-extras.php:244
 msgid "Item title Child Websites"
 msgstr "Element-Titel Child-Websites"
 
-#: includes/admin/admin-extras.php:246
+#: includes/admin/admin-extras.php:248
 msgid "For Child Websites, list all Child Sites"
 msgstr "Für Child-Websites, alle Child-Websites auflisten"
 
-#: includes/admin/admin-extras.php:250
+#: includes/admin/admin-extras.php:252
 msgid "For Child Websites, list Groups"
 msgstr "Für Child-Websites, Gruppen auflisten"
 
-#: includes/admin/admin-extras.php:254
+#: includes/admin/admin-extras.php:256
 msgid "For Child Websites, list Statuses"
 msgstr "Für Child-Websites, Status auflisten"
 
-#: includes/admin/admin-extras.php:258
+#: includes/admin/admin-extras.php:260
 msgid "Remove Build Group"
 msgstr "Erschaffen-Gruppe entfernen"
 
-#: includes/admin/admin-extras.php:262
+#: includes/admin/admin-extras.php:264
 msgid "Remove Manage Content Items"
 msgstr "Inhalte-Verwalten-Elemente entfernen"
 
-#: includes/admin/admin-extras.php:266
+#: includes/admin/admin-extras.php:268
 msgid "Remove WP Widget Items"
 msgstr "WP-Widgets-Elemente entfernen"
 
-#: includes/admin/admin-extras.php:270
+#: includes/admin/admin-extras.php:272
 msgid "Remove WP Comments Item"
 msgstr "WP-Kommentare-Element entfernen"
 
-#: includes/admin/admin-extras.php:274
+#: includes/admin/admin-extras.php:276
 msgid "Remove Site Group"
 msgstr "Website-Gruppe entfernen"
 
-#: includes/admin/admin-extras.php:278
+#: includes/admin/admin-extras.php:280
 msgid "Remove WP Updates Item"
 msgstr "WP-Updates-Element entfernen"
 
-#: includes/admin/admin-extras.php:282
+#: includes/admin/admin-extras.php:284
 msgid "Remove WP New Content Group"
 msgstr "WP Neue Inhalte-Gruppe entfernen"
 
-#: includes/admin/admin-extras.php:286
+#: includes/admin/admin-extras.php:288
 msgid "Remove Reusable Blocks Admin Menu"
 msgstr "Adminmenü für Wiederverwendbare Blöcke entfernen"
 
@@ -166,7 +166,7 @@ msgctxt "MainWP component title"
 msgid "My MainWP"
 msgstr "Mein MainWP"
 
-#: includes/admin/tbexmwp-settings.php:42 includes/items-mainwp.php:246
+#: includes/admin/tbexmwp-settings.php:42 includes/items-mainwp.php:247
 #: includes/string-switcher.php:32
 msgctxt "MainWP component title"
 msgid "Updates"
@@ -183,168 +183,191 @@ msgctxt "MainWP component title"
 msgid "Websites"
 msgstr "Websites"
 
-#: includes/admin/tbexmwp-settings.php:61 includes/string-switcher.php:41
+#: includes/admin/tbexmwp-settings.php:62 includes/string-switcher.php:41
 msgctxt "MainWP component title"
 msgid "Content"
 msgstr "Inhalte"
 
-#: includes/admin/tbexmwp-settings.php:66 includes/items-mainwp.php:779
+#: includes/admin/tbexmwp-settings.php:67 includes/items-mainwp.php:798
 #: includes/string-switcher.php:44
 msgctxt "MainWP component title"
 msgid "Plugins"
 msgstr "Plugins"
 
-#: includes/admin/tbexmwp-settings.php:71 includes/items-mainwp.php:886
+#: includes/admin/tbexmwp-settings.php:72 includes/items-mainwp.php:905
 #: includes/string-switcher.php:47
 msgctxt "MainWP component title"
 msgid "Themes"
 msgstr "Themes"
 
-#: includes/admin/tbexmwp-settings.php:76 includes/items-mainwp.php:993
+#: includes/admin/tbexmwp-settings.php:77 includes/items-mainwp.php:1012
 #: includes/string-switcher.php:50
 msgctxt "MainWP component title"
 msgid "Users"
 msgstr "Benutzer"
 
-#: includes/admin/tbexmwp-settings.php:81 includes/mainwp-extensions.php:366
+#: includes/admin/tbexmwp-settings.php:82 includes/mainwp-extensions.php:366
 #: includes/string-switcher.php:53
 msgctxt "MainWP component title"
 msgid "Extensions"
 msgstr "Erweiterungen"
 
-#: includes/admin/tbexmwp-settings.php:86 includes/items-mainwp.php:1095
+#: includes/admin/tbexmwp-settings.php:87 includes/items-mainwp.php:1115
 #: includes/string-switcher.php:56
 msgctxt "MainWP component title"
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: includes/admin/tbexmwp-settings.php:91 includes/string-switcher.php:59
+#: includes/admin/tbexmwp-settings.php:92 includes/string-switcher.php:59
 msgctxt "MainWP component title"
 msgid "Server Info"
 msgstr "Server-Info"
 
-#: includes/admin/tbexmwp-settings.php:163
+#: includes/admin/tbexmwp-settings.php:164
 msgid "MainWP Components as Toolbar Items"
 msgstr "MainWP-Komponenten als Toolbar-Links"
 
-#: includes/admin/tbexmwp-settings.php:356
+#: includes/admin/tbexmwp-settings.php:357
 msgid "What title to display for the Websites component?"
 msgstr "Welcher Titel soll für die Websites-Komponente angezeigt werden?"
 
-#: includes/admin/tbexmwp-settings.php:394
+#: includes/admin/tbexmwp-settings.php:395
 msgid "List all Child Sites as sub items of Websites?"
 msgstr "Alle Child Websites als Untermenü von „Websites“ auflisten?"
 
 #: includes/admin/tbexmwp-settings.php:406
+msgid "Choose Admin URL variant for Child Sites"
+msgstr "Wählen Sie die Admin-URL-Variante für Child-Websites"
+
+#: includes/admin/tbexmwp-settings.php:418
 msgid "List all Groups as sub items of Websites?"
 msgstr "Alle Gruppen als Untermenü von „Websites“ auflisten?"
 
-#: includes/admin/tbexmwp-settings.php:418
+#: includes/admin/tbexmwp-settings.php:430
 msgid "List all Statuses as sub items of Websites?"
 msgstr "Alle Status als Untermenü von „Websites“ auflisten?"
 
-#: includes/admin/tbexmwp-settings.php:801
+#: includes/admin/tbexmwp-settings.php:813
 msgid "Various Tweaks"
 msgstr "Verschiedene Anpassungen"
 
-#: includes/admin/tbexmwp-settings.php:808
+#: includes/admin/tbexmwp-settings.php:820
 msgid "Set background color, icon and special text for Toolbar"
 msgstr ""
 "Hintergrundfarbe, Icon und speziellen Text für die Symbolleiste festlegen"
 
-#: includes/admin/tbexmwp-settings.php:817
+#: includes/admin/tbexmwp-settings.php:829
 #, php-format
 msgid "Remove %s Group from Toolbar Extras?"
 msgstr "Die %s-Gruppe von Toolbar Extras entfernen?"
 
-#: includes/admin/tbexmwp-settings.php:817
+#: includes/admin/tbexmwp-settings.php:829
 msgid "Build"
 msgstr "Erschaffen"
 
-#: includes/admin/tbexmwp-settings.php:826
+#: includes/admin/tbexmwp-settings.php:838
 msgid "Remove Manage Content items from Toolbar Extras?"
 msgstr "Die Inhalte-Verwalten-Links von Toolbar Extras entfernen?"
 
-#: includes/admin/tbexmwp-settings.php:835
+#: includes/admin/tbexmwp-settings.php:847
 msgid "Remove WP Widgets items from Toolbar Extras?"
 msgstr "WP Widgets-Links von Toolbar Extras entfernen?"
 
-#: includes/admin/tbexmwp-settings.php:844
+#: includes/admin/tbexmwp-settings.php:856
 msgid "Remove Comments Item (WordPress default)?"
 msgstr "Den Kommentar-Link (WordPress-Standard) entfernen?"
 
-#: includes/admin/tbexmwp-settings.php:853
+#: includes/admin/tbexmwp-settings.php:865
 msgid "Remove Site Group (WordPress default)?"
 msgstr "Website-Gruppe (WordPress-Standard) entfernen?"
 
-#: includes/admin/tbexmwp-settings.php:862
+#: includes/admin/tbexmwp-settings.php:874
 msgid "Remove Updates Item (WordPress default)?"
 msgstr "Updates-Link (WordPress-Standard) entfernen?"
 
-#: includes/admin/tbexmwp-settings.php:871
+#: includes/admin/tbexmwp-settings.php:883
 msgid "Remove New Content Group (WordPress default)?"
 msgstr "Neue Inhalte-Gruppe (WordPress-Standard) entfernen?"
 
 #. translators: %s - label, "Blocks"
-#: includes/admin/tbexmwp-settings.php:881
+#: includes/admin/tbexmwp-settings.php:893
 #, php-format
 msgid "Remove Left-hand %s Admin Menu?"
 msgstr "Linkes %s-Adminmenü entfernen?"
 
-#: includes/admin/tbexmwp-settings.php:881
+#: includes/admin/tbexmwp-settings.php:893
 msgid "Blocks"
 msgstr "Blöcke"
 
-#: includes/admin/tbexmwp-settings.php:890
+#: includes/admin/tbexmwp-settings.php:902
 msgid "Unload all MainWP Translations?"
 msgstr "Alle Übersetzungen von MainWP nicht laden?"
 
-#: includes/admin/tbexmwp-settings.php:899
+#: includes/admin/tbexmwp-settings.php:911
 msgid "Unload Toolbar Extras for MainWP Add-On Translations?"
 msgstr "Übersetzungen von Toolbar Extras für MainWP nicht laden?"
 
 #. translators: Settings tab title in WP-Admin
-#: includes/admin/tbexmwp-settings.php:1120
-#: includes/admin/tbexmwp-settings.php:1345
+#: includes/admin/tbexmwp-settings.php:1134
+#: includes/admin/tbexmwp-settings.php:1445
 msgctxt "Plugin settings tab title"
 msgid "MainWP"
 msgstr "MainWP"
 
-#: includes/admin/tbexmwp-settings.php:1176
+#: includes/admin/tbexmwp-settings.php:1191
 msgctxt "Admin menu title"
 msgid "MainWP Toolbar"
 msgstr "MainWP-Toolbar"
 
-#: includes/admin/tbexmwp-settings.php:1177
+#: includes/admin/tbexmwp-settings.php:1192
 msgctxt "Admin menu title"
 msgid "MainWP Plugins"
 msgstr "MainWP-Plugins"
 
-#: includes/admin/tbexmwp-settings.php:1199
+#: includes/admin/tbexmwp-settings.php:1214
 msgctxt "MainWP admin menu title"
 msgid "Toolbar for MainWP"
 msgstr "Toolbar für MainWP"
 
-#: includes/admin/tbexmwp-settings.php:1227
+#: includes/admin/tbexmwp-settings.php:1248
 msgctxt "MainWP admin menu title"
 msgid "Site Health"
 msgstr "Website-Status"
 
-#: includes/admin/tbexmwp-settings.php:1234
+#: includes/admin/tbexmwp-settings.php:1255
 msgctxt "MainWP admin menu title"
 msgid "Debug Info"
 msgstr "Debug-Informationen"
 
-#: includes/admin/tbexmwp-settings.php:1266
+#: includes/admin/tbexmwp-settings.php:1291 includes/items-mainwp.php:1243
+#: includes/items-mainwp.php:1247 toolbar-extras-mainwp.php:248
+#: toolbar-extras-mainwp.php:267 toolbar-extras-mainwp.php:313
+msgid "Toolbar Extras"
+msgstr "Toolbar Extras"
+
+#: includes/admin/tbexmwp-settings.php:1302 includes/items-mainwp.php:1230
+#: includes/items-mainwp.php:1234
+msgid "MainWP Toolbar"
+msgstr "MainWP-Toolbar"
+
+#: includes/admin/tbexmwp-settings.php:1309
+msgid "More Toolbar Options"
+msgstr "Mehr Toolbar-Optionen"
+
+#: includes/admin/tbexmwp-settings.php:1316 includes/items-mainwp.php:1256
+msgid "MainWP Plugins/ Extensions"
+msgstr "MainWP Plugins/ Erweiterungen"
+
+#: includes/admin/tbexmwp-settings.php:1364
 msgctxt "MainWP admin menu title"
 msgid "Activity Log"
 msgstr "Aktivitätsprotokolle"
 
-#: includes/admin/tbexmwp-settings.php:1287
+#: includes/admin/tbexmwp-settings.php:1387
 msgid "Add-On"
 msgstr "Add-On"
 
-#: includes/admin/tbexmwp-settings.php:1292
+#: includes/admin/tbexmwp-settings.php:1392
 #, php-format
 msgid ""
 "This Add-On brings the components of the %s to your Toolbar, including "
@@ -354,7 +377,7 @@ msgstr ""
 "(Adminbar, Werkzeugleiste), einschließlich der aktuell aktiven MainWP Add-"
 "Ons (Zusatzmodule)."
 
-#: includes/admin/tbexmwp-settings.php:1295
+#: includes/admin/tbexmwp-settings.php:1395
 msgid ""
 "Below you will find plenty of settings to customize your experience to "
 "manage your websites with MainWP even faster."
@@ -363,22 +386,22 @@ msgstr ""
 "Benutzererfahrung anpassen können, um Ihre Websites mit MainWP noch "
 "schneller zu verwalten."
 
-#: includes/admin/tbexmwp-settings.php:1318
+#: includes/admin/tbexmwp-settings.php:1418
 msgctxt "For Toolbar Extras Plugin"
 msgid "MainWP Add-On"
 msgstr "MainWP Add-On"
 
 #. translators: Title attribute for Toolbar Extras "MainWP Add-On" settings link
-#: includes/admin/tbexmwp-settings.php:1323
+#: includes/admin/tbexmwp-settings.php:1423
 msgctxt "For Toolbar Extras Plugin"
 msgid "MainWP Dashboard Add-On for Toolbar Extras"
 msgstr "MainWP Dashboard Add-On für Toolbar Extras"
 
-#: includes/admin/tbexmwp-settings.php:1344
+#: includes/admin/tbexmwp-settings.php:1444
 msgid "Go to the Toolbar Extras MainWP Add-On settings tab"
 msgstr "Gehen Sie zum Toolbar Extras Einstellungen-Tab „MainWP Add-On“"
 
-#: includes/admin/tbexmwp-settings.php:1368
+#: includes/admin/tbexmwp-settings.php:1468
 msgid "MainWP Green"
 msgstr "MainWP Grün"
 
@@ -498,18 +521,19 @@ msgstr ""
 #: includes/admin/views/settings-tab-mainwp.php:259
 #: includes/admin/views/settings-tab-mainwp.php:313
 #: includes/admin/views/settings-tab-mainwp.php:339
-#: includes/admin/views/settings-tab-mainwp.php:370
-#: includes/admin/views/settings-tab-mainwp.php:401
-#: includes/admin/views/settings-tab-mainwp.php:429
-#: includes/admin/views/settings-tab-mainwp.php:454
-#: includes/admin/views/settings-tab-mainwp.php:479
-#: includes/admin/views/settings-tab-mainwp.php:504
-#: includes/admin/views/settings-tab-mainwp.php:529
-#: includes/admin/views/settings-tab-mainwp.php:554
-#: includes/admin/views/settings-tab-mainwp.php:579
-#: includes/admin/views/settings-tab-mainwp.php:604
-#: includes/admin/views/settings-tab-mainwp.php:629
-#: includes/admin/views/settings-tab-mainwp.php:664
+#: includes/admin/views/settings-tab-mainwp.php:368
+#: includes/admin/views/settings-tab-mainwp.php:396
+#: includes/admin/views/settings-tab-mainwp.php:427
+#: includes/admin/views/settings-tab-mainwp.php:455
+#: includes/admin/views/settings-tab-mainwp.php:480
+#: includes/admin/views/settings-tab-mainwp.php:505
+#: includes/admin/views/settings-tab-mainwp.php:530
+#: includes/admin/views/settings-tab-mainwp.php:555
+#: includes/admin/views/settings-tab-mainwp.php:580
+#: includes/admin/views/settings-tab-mainwp.php:605
+#: includes/admin/views/settings-tab-mainwp.php:630
+#: includes/admin/views/settings-tab-mainwp.php:655
+#: includes/admin/views/settings-tab-mainwp.php:690
 #, php-format
 msgid "Default: %s"
 msgstr "Standard: %s"
@@ -561,7 +585,28 @@ msgstr ""
 "einer sehr langen Liste als Untermenü. In diesem Fall kann es sinnvoll sein, "
 "diese Funktion hier zu deaktivieren."
 
-#: includes/admin/views/settings-tab-mainwp.php:373
+#: includes/admin/views/settings-tab-mainwp.php:364
+msgid "MainWP-generated URL with automatic Admin login"
+msgstr "Von MainWP generierte URL mit automatischer Admin-Anmeldung"
+
+#: includes/admin/views/settings-tab-mainwp.php:365
+msgid "Regular WP-Admin URL"
+msgstr "Reguläre WP-Admin URL"
+
+#: includes/admin/views/settings-tab-mainwp.php:368
+msgid "MainWP-generated URL"
+msgstr "Von MainWP generierte URL"
+
+#: includes/admin/views/settings-tab-mainwp.php:371
+msgid ""
+"If you do not want the automatic login feature by MainWP then please set to "
+"the regular WP variant and login manually yourself."
+msgstr ""
+"Wenn Sie die automatische Login-Funktion von MainWP nicht wünschen, dann "
+"stellen Sie bitte auf die normale WP-Variante um und melden Sie sich manuell "
+"an."
+
+#: includes/admin/views/settings-tab-mainwp.php:399
 msgid ""
 "Enabling this feature gives you quick jump links for all groups you have "
 "setup within MainWP: this helps filtering your list of websites (child "
@@ -571,7 +616,7 @@ msgstr ""
 "alle Gruppen, die Sie in MainWP eingerichtet haben: dies hilft die Liste "
 "Ihrer Websites besser zu filtern."
 
-#: includes/admin/views/settings-tab-mainwp.php:376
+#: includes/admin/views/settings-tab-mainwp.php:402
 msgid ""
 "Note: If you have many groups set up this will result in a very long list of "
 "sub items. In that case you maybe want to disable this feature here."
@@ -580,7 +625,7 @@ msgstr ""
 "langen Liste als Untermenü. In diesem Fall kann es sinnvoll sein, diese "
 "Funktion hier zu deaktivieren."
 
-#: includes/admin/views/settings-tab-mainwp.php:404
+#: includes/admin/views/settings-tab-mainwp.php:430
 msgid ""
 "Enabling this feature gives you quick jump links for all statuses within "
 "MainWP: this helps filtering your list of websites (child sites)."
@@ -588,7 +633,7 @@ msgstr ""
 "Wenn Sie diese Funktion aktivieren, erhalten Sie Schnellzugriffslinks für "
 "alle Status in MainWP: dies hilft die Liste Ihrer Websites besser zu filtern."
 
-#: includes/admin/views/settings-tab-mainwp.php:632
+#: includes/admin/views/settings-tab-mainwp.php:658
 msgid ""
 "This tweak unloads the translations for MainWP Dashboard, plus all current "
 "active MainWP Add-Ons. So all strings fall back to their English default "
@@ -599,16 +644,16 @@ msgstr ""
 "automatisch die englischsprachigen Original-Strings geladen."
 
 #. translators: %s - text domain strings, for example 'mainwp'
-#: includes/admin/views/settings-tab-mainwp.php:637
+#: includes/admin/views/settings-tab-mainwp.php:663
 #, php-format
 msgid "Effected text domains: %s"
 msgstr "Betroffene Textdomains: %s"
 
-#: includes/admin/views/settings-tab-mainwp.php:638
+#: includes/admin/views/settings-tab-mainwp.php:664
 msgid "plus those from active add-ons"
 msgstr "plus die von aktiven Add-ons"
 
-#: includes/admin/views/settings-tab-mainwp.php:667
+#: includes/admin/views/settings-tab-mainwp.php:693
 msgid ""
 "This tweak unloads the translations for Toolbar Extras for MainWP Add-On, so "
 "it falls back to the English default strings."
@@ -618,7 +663,7 @@ msgstr ""
 "Original-Strings geladen."
 
 #. translators: %s - a text domain string, 'toolbar-extras-mainwp'
-#: includes/admin/views/settings-tab-mainwp.php:672
+#: includes/admin/views/settings-tab-mainwp.php:698
 #, php-format
 msgid "Effected text domain: %s"
 msgstr "Betroffene Textdomain: %s"
@@ -1314,15 +1359,15 @@ msgstr "Verwalten in MainWP"
 msgid "Manage"
 msgstr "Verwalten"
 
-#: includes/items-mainwp-sites.php:128 includes/items-mainwp-sites.php:132
+#: includes/items-mainwp-sites.php:135 includes/items-mainwp-sites.php:139
 msgid "Open WP-Admin"
 msgstr "WP-Admin öffnen"
 
-#: includes/items-mainwp-sites.php:141
+#: includes/items-mainwp-sites.php:148
 msgid "Visit Website"
 msgstr "Website besuchen"
 
-#: includes/items-mainwp-sites.php:145
+#: includes/items-mainwp-sites.php:152
 msgid "Visit Website (Frontend)"
 msgstr "Website besuchen (Frontend)"
 
@@ -1355,7 +1400,7 @@ msgid "My MainWP Dashboard"
 msgstr "Mein MainWP Dashboard"
 
 #: includes/items-mainwp.php:83 includes/items-mainwp.php:87
-#: includes/items-mainwp.php:1170 includes/items-mainwp.php:1174
+#: includes/items-mainwp.php:1195 includes/items-mainwp.php:1199
 msgid "MainWP Quick Setup"
 msgstr "MainWP Schnelleinrichtung"
 
@@ -1395,310 +1440,304 @@ msgstr "Schritt 7: WP-Cron-Auslöser"
 msgid "Step 8: Cleanup"
 msgstr "Schritt 8: Aufräumen"
 
-#: includes/items-mainwp.php:255 includes/items-mainwp.php:259
+#: includes/items-mainwp.php:256 includes/items-mainwp.php:260
 msgid "Manage Updates"
 msgstr "Updates verwalten"
 
-#: includes/items-mainwp.php:268 includes/items-mainwp.php:273
+#: includes/items-mainwp.php:269 includes/items-mainwp.php:274
 msgid "Sync Child Sites"
 msgstr "Child Sites synchronisieren"
 
-#: includes/items-mainwp.php:282 includes/items-mainwp.php:287
+#: includes/items-mainwp.php:283 includes/items-mainwp.php:288
 msgid "Update Everything"
 msgstr "Alles aktualisieren"
 
-#: includes/items-mainwp.php:296 includes/items-mainwp.php:301
+#: includes/items-mainwp.php:299
+msgid "Update All WP Core"
+msgstr "WP Core alles aktualisieren"
+
+#: includes/items-mainwp.php:304
+msgid "Update All WordPress Core Versions"
+msgstr "Alle WordPress Core-Versionen aktualisieren"
+
+#: includes/items-mainwp.php:315 includes/items-mainwp.php:320
 msgid "Update All Plugins"
 msgstr "Alle Plugins aktualisieren"
 
-#: includes/items-mainwp.php:310 includes/items-mainwp.php:315
+#: includes/items-mainwp.php:329 includes/items-mainwp.php:334
 msgid "Update All Themes"
 msgstr "Alle Themes aktualisieren"
 
-#: includes/items-mainwp.php:324 includes/items-mainwp.php:329
+#: includes/items-mainwp.php:343 includes/items-mainwp.php:348
 msgid "Update All Translations"
 msgstr "Alle Übersetzungen aktualisieren"
 
-#: includes/items-mainwp.php:371
+#: includes/items-mainwp.php:390
 msgid "Add New Stuff"
 msgstr "Neues Material hinzufügen"
 
-#: includes/items-mainwp.php:388
+#: includes/items-mainwp.php:407
 msgid "Website (Child Site)"
 msgstr "Website (Child Site)"
 
-#: includes/items-mainwp.php:392 includes/items-mainwp.php:575
+#: includes/items-mainwp.php:411 includes/items-mainwp.php:594
 msgid "Add New Website (Child Site)"
 msgstr "Neue Website hinzufügen (Child Site)"
 
-#: includes/items-mainwp.php:409
+#: includes/items-mainwp.php:428
 msgid "Plugin (Bulk Install)"
 msgstr "Plugin (Masseninstallation)"
 
-#: includes/items-mainwp.php:413
+#: includes/items-mainwp.php:432
 msgid "Add New Plugin (Bulk Install)"
 msgstr "Neues Plugin hinzufügen (Masseninstallation)"
 
-#: includes/items-mainwp.php:422
+#: includes/items-mainwp.php:441
 msgid "Theme (Bulk Install)"
 msgstr "Theme (Masseninstallation)"
 
-#: includes/items-mainwp.php:426
+#: includes/items-mainwp.php:445
 msgid "Add New Theme (Bulk Install)"
 msgstr "Neues Theme hinzufügen (Masseninstallation)"
 
-#: includes/items-mainwp.php:435 includes/items-mainwp.php:439
+#: includes/items-mainwp.php:454 includes/items-mainwp.php:458
 msgid "MainWP Extension"
 msgstr "MainWP Erweiterung"
 
-#: includes/items-mainwp.php:459
+#: includes/items-mainwp.php:478
 msgid "Page (Bulk)"
 msgstr "Seite (mehrfach)"
 
-#: includes/items-mainwp.php:463 includes/items-mainwp.php:703
+#: includes/items-mainwp.php:482 includes/items-mainwp.php:722
 msgid "Add New Page (Bulk Mode)"
 msgstr "Neue Seite hinzufügen (Mehrfachaktion)"
 
-#: includes/items-mainwp.php:472
+#: includes/items-mainwp.php:491
 msgid "Post (Bulk)"
 msgstr "Beitrag (mehrfach)"
 
-#: includes/items-mainwp.php:476 includes/items-mainwp.php:737
+#: includes/items-mainwp.php:495 includes/items-mainwp.php:756
 msgid "Add New Post (Bulk Mode)"
 msgstr "Neuen Beitrag hinzufügen (Mehrfachaktion)"
 
-#: includes/items-mainwp.php:493
+#: includes/items-mainwp.php:512
 msgid "User (Bulk)"
 msgstr "Benutzer (mehrfach)"
 
-#: includes/items-mainwp.php:497
+#: includes/items-mainwp.php:516
 msgid "Add New Users (Bulk Mode)"
 msgstr "Neue Benutzer hinzufügen (Mehrfachaktion)"
 
-#: includes/items-mainwp.php:549
+#: includes/items-mainwp.php:568
 msgid "Websites (Child Sites)"
 msgstr "Websites (Child Sites)"
 
-#: includes/items-mainwp.php:558
+#: includes/items-mainwp.php:577
 msgid "Manage Sites"
 msgstr "Websites verwalten"
 
-#: includes/items-mainwp.php:562
+#: includes/items-mainwp.php:581
 msgid "Manage Websites (Child Sites)"
 msgstr "Websites verwalten (Child Sites)"
 
-#: includes/items-mainwp.php:571
+#: includes/items-mainwp.php:590
 msgid "New Website"
 msgstr "Neue Website"
 
-#: includes/items-mainwp.php:584
+#: includes/items-mainwp.php:603
 msgid "Import Sites"
 msgstr "Sites importieren"
 
-#: includes/items-mainwp.php:588
+#: includes/items-mainwp.php:607
 msgid "Import Websites (Child Sites)"
 msgstr "Websites importieren (Child Sites)"
 
-#: includes/items-mainwp.php:597
+#: includes/items-mainwp.php:616
 msgid "Test Connection"
 msgstr "Verbindung testen"
 
-#: includes/items-mainwp.php:601
+#: includes/items-mainwp.php:620
 msgid "Test Connection to a Website (Child Site)"
 msgstr "Verbindung zu einer Website testen (Child Site)"
 
-#: includes/items-mainwp.php:610 includes/items-mainwp.php:614
+#: includes/items-mainwp.php:629 includes/items-mainwp.php:633
 msgid "Groups"
 msgstr "Gruppen"
 
-#: includes/items-mainwp.php:623 includes/items-mainwp.php:627
-#: includes/items-mainwp.php:1368 includes/items-mainwp.php:1372
+#: includes/items-mainwp.php:642 includes/items-mainwp.php:646
+#: includes/items-mainwp.php:1393 includes/items-mainwp.php:1397
 msgid "Child Sites Server Info"
 msgstr "Child Sites Server-Info"
 
-#: includes/items-mainwp.php:669
+#: includes/items-mainwp.php:688
 msgid "Manage Content - Posts &amp; Pages"
 msgstr "Inhalte verwalten - Beiträge &amp; Seiten"
 
-#: includes/items-mainwp.php:686 includes/items-mainwp.php:690
+#: includes/items-mainwp.php:705 includes/items-mainwp.php:709
 msgid "Manage Pages"
 msgstr "Seiten verwalten"
 
-#: includes/items-mainwp.php:699
+#: includes/items-mainwp.php:718
 msgid "New Page"
 msgstr "Neue Seite"
 
-#: includes/items-mainwp.php:720 includes/items-mainwp.php:724
+#: includes/items-mainwp.php:739 includes/items-mainwp.php:743
 msgid "Manage Posts"
 msgstr "Beiträge verwalten"
 
-#: includes/items-mainwp.php:733
+#: includes/items-mainwp.php:752
 msgid "New Post"
 msgstr "Neuer Beitrag"
 
-#: includes/items-mainwp.php:788 includes/items-mainwp.php:792
+#: includes/items-mainwp.php:807 includes/items-mainwp.php:811
 msgid "Manage Plugins"
 msgstr "Verwalte Plaugins"
 
-#: includes/items-mainwp.php:801 includes/items-mainwp.php:908
+#: includes/items-mainwp.php:820 includes/items-mainwp.php:927
 msgid "Bulk Install"
 msgstr "Masseninstallation"
 
-#: includes/items-mainwp.php:805
+#: includes/items-mainwp.php:824
 msgid "Bulk Install New Plugins"
 msgstr "Neue Plugins Masseninstallation"
 
-#: includes/items-mainwp.php:814 includes/items-mainwp.php:921
+#: includes/items-mainwp.php:833 includes/items-mainwp.php:940
 msgid "Auto Updates"
 msgstr "Automatische Updates"
 
-#: includes/items-mainwp.php:818 includes/items-mainwp.php:925
+#: includes/items-mainwp.php:837 includes/items-mainwp.php:944
 msgid "Manage Auto Updates"
 msgstr "Automatische Updates verwalten"
 
-#: includes/items-mainwp.php:827 includes/items-mainwp.php:934
+#: includes/items-mainwp.php:846 includes/items-mainwp.php:953
 msgid "Ignored Updates"
 msgstr "Ignorierte Updates"
 
-#: includes/items-mainwp.php:831
+#: includes/items-mainwp.php:850
 msgid "Ignored Plugin Updates"
 msgstr "Ignorierte Plugin-Updates"
 
-#: includes/items-mainwp.php:840 includes/items-mainwp.php:844
+#: includes/items-mainwp.php:859 includes/items-mainwp.php:863
 msgid "Ignored Abandoned Plugins"
 msgstr "Ignorierte aufgegeben Plugins"
 
-#: includes/items-mainwp.php:895 includes/items-mainwp.php:899
+#: includes/items-mainwp.php:914 includes/items-mainwp.php:918
 msgid "Manage Themes"
 msgstr "Verwalte Themes"
 
-#: includes/items-mainwp.php:912
+#: includes/items-mainwp.php:931
 msgid "Bulk Install New Themes"
 msgstr "Neue Themes Masseninstallation"
 
-#: includes/items-mainwp.php:938
+#: includes/items-mainwp.php:957
 msgid "Ignored Theme Updates"
 msgstr "Ignorierte Theme-Updates"
 
-#: includes/items-mainwp.php:947 includes/items-mainwp.php:951
+#: includes/items-mainwp.php:966 includes/items-mainwp.php:970
 msgid "Ignored Abandoned Themes"
 msgstr "Ignorierte aufgegebene Themes"
 
-#: includes/items-mainwp.php:1002 includes/items-mainwp.php:1006
+#: includes/items-mainwp.php:1021 includes/items-mainwp.php:1025
 msgid "Manage Users"
 msgstr "Benutzer verwalten"
 
-#: includes/items-mainwp.php:1015
+#: includes/items-mainwp.php:1034
 msgid "Add User"
 msgstr "Benutzer hinzufügen"
 
-#: includes/items-mainwp.php:1019
+#: includes/items-mainwp.php:1038
 msgid "Bulk Add New Users"
 msgstr "Mehrere neue Benutzer hinzufügen"
 
-#: includes/items-mainwp.php:1028
+#: includes/items-mainwp.php:1047
 msgid "Import Users"
 msgstr "User importieren"
 
-#: includes/items-mainwp.php:1032
+#: includes/items-mainwp.php:1051
 msgid "Bulk Import Users"
 msgstr "Mehrere Benutzer importieren"
 
-#: includes/items-mainwp.php:1041 includes/items-mainwp.php:1045
+#: includes/items-mainwp.php:1060 includes/items-mainwp.php:1064
 msgid "Admin Passwords"
 msgstr "Admin Passwort"
 
-#: includes/items-mainwp.php:1104 includes/items-mainwp.php:1108
+#: includes/items-mainwp.php:1124 includes/items-mainwp.php:1128
 msgid "Global Options"
 msgstr "Globale Optionen"
 
-#: includes/items-mainwp.php:1117 includes/items-mainwp.php:1121
+#: includes/items-mainwp.php:1140 includes/items-mainwp.php:1144
 msgid "Dashboard Options"
 msgstr "Dashboard-Optionen"
 
-#: includes/items-mainwp.php:1130 includes/items-mainwp.php:1134
+#: includes/items-mainwp.php:1155 includes/items-mainwp.php:1159
 msgid "Advanced Options"
 msgstr "Erweiterte Optionen"
 
-#: includes/items-mainwp.php:1144 includes/items-mainwp.php:1148
+#: includes/items-mainwp.php:1169 includes/items-mainwp.php:1173
 msgid "MainWP Tools"
 msgstr "MainWP Werkzeuge"
 
-#: includes/items-mainwp.php:1157 includes/items-mainwp.php:1161
+#: includes/items-mainwp.php:1182 includes/items-mainwp.php:1186
 msgid "Scan Child Sites"
 msgstr "Child Sites scannen"
 
-#: includes/items-mainwp.php:1184 includes/items-mainwp.php:1188
+#: includes/items-mainwp.php:1209 includes/items-mainwp.php:1213
 msgid "Managed Client Reports Responder"
 msgstr "Verwaltete Kundenberichte Responder"
 
-#: includes/items-mainwp.php:1205 includes/items-mainwp.php:1209
-msgid "MainWP Toolbar"
-msgstr "MainWP-Toolbar"
-
-#: includes/items-mainwp.php:1218 includes/items-mainwp.php:1222
-#: toolbar-extras-mainwp.php:248 toolbar-extras-mainwp.php:267
-#: toolbar-extras-mainwp.php:313
-msgid "Toolbar Extras"
-msgstr "Toolbar Extras"
-
-#: includes/items-mainwp.php:1231
-msgid "MainWP Plugins/ Extensions"
-msgstr "MainWP Plugins/ Erweiterungen"
-
-#: includes/items-mainwp.php:1235
+#: includes/items-mainwp.php:1260
 msgid "Filter MainWP Plugins &amp; Extensions"
 msgstr "MainWP Plugins &amp; Erweiterungen filtern"
 
-#: includes/items-mainwp.php:1278
+#: includes/items-mainwp.php:1303
 msgid "Server Information"
 msgstr "Server-Informationen"
 
-#: includes/items-mainwp.php:1295
+#: includes/items-mainwp.php:1320
 msgid "Server System Info"
 msgstr "Infos zum Serversystem"
 
-#: includes/items-mainwp.php:1299
+#: includes/items-mainwp.php:1324
 msgid "Server System Information"
 msgstr "Informationen zum Serversystem"
 
-#: includes/items-mainwp.php:1308
+#: includes/items-mainwp.php:1333
 msgid "Cron Schedule"
 msgstr "Cron Zeitplan"
 
-#: includes/items-mainwp.php:1312
+#: includes/items-mainwp.php:1337
 msgid "Cron - Scheduled Jobs"
 msgstr "Cron - Geplante Aufträge"
 
-#: includes/items-mainwp.php:1321 includes/items-mainwp.php:1325
+#: includes/items-mainwp.php:1346 includes/items-mainwp.php:1350
 msgid "Error Logs"
 msgstr "Fehlerprotokolle"
 
-#: includes/items-mainwp.php:1334 includes/items-mainwp.php:1338
+#: includes/items-mainwp.php:1359 includes/items-mainwp.php:1363
 msgid "WP-Config File"
 msgstr "WP-Config-Datei"
 
-#: includes/items-mainwp.php:1347 includes/items-mainwp.php:1351
+#: includes/items-mainwp.php:1372 includes/items-mainwp.php:1376
 msgid ".htaccess File"
 msgstr ".htaccess-Datei"
 
-#: includes/items-mainwp.php:1395
+#: includes/items-mainwp.php:1420
 msgid "Site Health Status"
 msgstr "Website-Status"
 
-#: includes/items-mainwp.php:1399 includes/items-mainwp.php:1412
+#: includes/items-mainwp.php:1424 includes/items-mainwp.php:1437
 msgid "MainWP Dashboard Installation - Site Health Status"
 msgstr "MainWP Dashboard Installation - Zustandsstatus der Website"
 
-#: includes/items-mainwp.php:1408
+#: includes/items-mainwp.php:1433
 msgid "Health Status"
 msgstr "Website-Status"
 
-#: includes/items-mainwp.php:1421
+#: includes/items-mainwp.php:1446
 msgid "Debug Info"
 msgstr "Debug-Informationen"
 
-#: includes/items-mainwp.php:1425
+#: includes/items-mainwp.php:1450
 msgid "MainWP Dashboard Installation - Debug Info"
 msgstr "MainWP Dashboard Installation - Debug-Inforomationen"
 
@@ -1887,8 +1926,8 @@ msgid "You do not have permission to run this script."
 msgstr "Sie haben keine Berechtigung, um dieses Skript ausführen zu können."
 
 #. Plugin URI of the plugin/theme
-msgid "https://github.com/deckerweb/toolbar-extras-mainwp"
-msgstr "https://github.com/deckerweb/toolbar-extras-mainwp"
+msgid "https://toolbarextras.com/addons/mainwp-dashboard/"
+msgstr "https://toolbarextras.com/addons/mainwp-dashboard/"
 
 #. Description of the plugin/theme
 msgid ""
@@ -1908,6 +1947,9 @@ msgstr "David Decker - DECKERWEB.de"
 #. Author URI of the plugin/theme
 msgid "https://toolbarextras.com/"
 msgstr "https://toolbarextras.com/"
+
+#~ msgid "https://github.com/deckerweb/toolbar-extras-mainwp"
+#~ msgstr "https://github.com/deckerweb/toolbar-extras-mainwp"
 
 #~ msgid "Add New Job"
 #~ msgstr "Neuen Auftrag hinzufügen"

@@ -43,7 +43,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'TBEXMWP_PLUGIN_VERSION', '1.0.0' );
 
 /** Required base plugin version */
-define( 'TBEXMWP_REQUIRED_BASE_PLUGIN_VERSION', '1.4.3' );
+define( 'TBEXMWP_REQUIRED_BASE_PLUGIN_VERSION', '1.4.6' );
 
 /** Plugin directory */
 define( 'TBEXMWP_PLUGIN_DIR', trailingslashit( dirname( __FILE__ ) ) );
@@ -339,6 +339,10 @@ require_once TBEXMWP_PLUGIN_DIR . 'includes/functions-conditionals.php';
 
 /** Include string functions */
 require_once TBEXMWP_PLUGIN_DIR . 'includes/string-switcher.php';
+
+
+/** Include function for settings updates on version changes functions */
+require_once TBEXMWP_PLUGIN_DIR . 'includes/tbexmwp-update-settings.php';
 
 
 /**

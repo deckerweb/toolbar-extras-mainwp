@@ -13,7 +13,7 @@ Managing Websites with MainWP? Your work will get easier & faster with this Tool
 
 == Description ==
 
-🚀 Quick Access to Your Website Management with MainWP Dashboard directly from your Toolbar. Use the components you want and be faster with your daily or weekly tasks in MainWP.  
+🚀 Quick Access to Your Website Management with MainWP Dashboard directly from your Toolbar. Use the components you want and be faster with your daily or weekly tasks in MainWP.
 This smart WordPress plugin just adds missed and **very useful admin links** for MainWP Dashboard to your Toolbar / Admin Bar. Save mouse travel and scrolling time. Access updates tasks, your Child Websites, settings and extensions way easier and faster from this one central hub at the top of your Dashboard installation.
 
 https://www.youtube.com/watch?v=SWBucl9EJBM
@@ -22,11 +22,12 @@ https://www.youtube.com/watch?v=SWBucl9EJBM
 
 I use this Add-On for more than a half year already and it feels totally natural for MainWP. Now I am more focused, faster with my daily tasks and it is customized all the way I wanted it. Since I am using this MainWP Add-On for Toolbar Extras, I am more than happy and have never looked back! ;-) *-- says David Decker, plugin developer*
 
-ℹ️ **Essential:** Toolbar Extras for MainWP Dashboard is an **Add-On** plugin, it **requires** the base plugin "Toolbar Extras".  
-ℹ️ **Important:** "MainWP Dashboard" is a **free** plugin for WordPress by MainWP.  
+ℹ️ **Essential:** Toolbar Extras for MainWP Dashboard is an **Add-On** plugin, it **requires** the base plugin "Toolbar Extras".
+ℹ️ **Important:** "MainWP Dashboard" is a **free** plugin for WordPress by MainWP.
 ℹ️ **Disclaimer:** Toolbar Extras for MainWP is an **independent** free plugin by David Decker from DECKERWEB. It does **not** represent MainWP.
 
 = ♥️ Features - What the Plugin Does =
+* Now **fully compatible to MainWP 4.0** or higher -- and also for 3.5.x still!
 * Bring up to 11 MainWP Components into your Toolbar
 * Start Child Websites synchronizing from Toolbar (when on MainWP pages)
 * Start "Update All" from Toolbar (when on MainWP pages)
@@ -127,16 +128,17 @@ You can also contribute code-wise via our [Toolbar Extras for MainWP GitHub Repo
 
 = Minimum Requirements =
 
-* **Base plugin:** [Toolbar Extras](https://wordpress.org/plugins/toolbar-extras/), version 1.4.3 or higher
+* **Base plugin:** [Toolbar Extras](https://wordpress.org/plugins/toolbar-extras/), version 1.4.6 or higher
 * WordPress version 4.7 or higher
-* PHP version 5.6 or higher
+* PHP version 5.6.20 or higher
 * MySQL version 5.0 or higher
 * Administrator user with capabilities `manage_options` and `edit_theme_options` who is logged-in and has the Toolbar (Admin Bar) enabled (user profile)
 
 = We Recommend Your Host Supports at least: =
 
 * PHP version 7.2 or higher
-* MySQL version 5.6 or higher / or MariaDB 10 or higher
+* MySQL version 5.6 or higher / OR MariaDB 10.1 or higher
+* HTTPS support
 
 = Installation =
 
@@ -152,6 +154,10 @@ For documentation and tutorials visit our [Knowledge Base](https://toolbarextras
 
 == Frequently Asked Questions ==
 
+= Is it compatible with MainWP 4.0 or higher? =
+Yes, since plugin version 1.1.0 it is fully compatible to MainWP 4.0 or higer: that means the WordPress Toolbar (Admin Bar) is NOW back again! And you can of course use it for this add-on plugin here!!
+
+
 = Can I run this on my normal business live website? =
 Technically yes. However, it absolutely makes no sense! You should think twice if you really want to do that.
 
@@ -165,6 +171,16 @@ Toolbar Extras is the "base" or "main" plugin. It provides a lot of functionalit
 
 = Why is MainWP Dashboard plugin required? =
 While technically the MainWP Dashboard plugin is not "required", this Add-On here makes absolutely no sense without it.
+
+
+= Why has the base plugin "Toolbar Extras" the word "Elementor" in its title? =
+That is only in the plugin's readme and therefore appears on the plugin page on wordpress.org. The reason is simple: the "Elementor Add-On" is de-facto built-in in the base plugin and not an extra Add-On (like this one here for MainWP). But don't worry: you won't see any Elementor stuff ever. Those integrations are only ever loaded at all if Elementor is installed and active.
+
+So don't get confused :-) On your "Plugins" page in your WordPress install the base plugin is listed normally as just "Toolbar Extras" and that is also the official name and it is referenced everywhere as that only.
+
+For more background info on this topic have look on our website:
+* *Blog post:* [Can Toolbar Extras be Used Without Elementor? (or Plugin/ Theme Xyz?)](https://toolbarextras.com/use-toolbar-extras-without-elementor/)
+* *Documentation article:* [Why is Toolbar Extras required and why no standalone plugin?](https://toolbarextras.com/docs/addons-why-toolbar-extras-required/)
 
 
 = Will this Plugin slow down my site? =
@@ -227,9 +243,13 @@ Yes, technically it works fine in Multisite, you could even activate it Network-
 
 ([For the full changelog of this plugin visit its website at ToolbarExtras.com](https://toolbarextras.com/changelog/))
 
-= ⚡ 1.0.1 - 2019-06-?? =
-* Fix: Correct "Manager Users" link
-* ?
+= 🎉 1.1.0 - 2019-08-31 =
+* *New: Successfully tested with MainWP Dashboard 4.x Beta/RC releases*
+* New: Added full compatibility with MainWP Dashboard 4.x version
+* New: Added new setting to choose admin URL scheme for Child Sites
+* Tweak: Changed default admin URL scheme for Child Sites, using MainWP Dashboard helper function to log in directly (can be changed in plugin settings if not wanted)
+* Tweak: Updated `.pot` file plus all German translations (formal, informal) and language packs
+* Fix: Correct "Manage Users" link
 
 
 = 🎉 1.0.0 - 2019-06-12 =
@@ -246,6 +266,9 @@ Yes, technically it works fine in Multisite, you could even activate it Network-
 
 
 == Upgrade Notice =
+
+= 1.1.0 =
+Fully compatible with MainWP 4.0 or higher. Plus more additions, tweaks and improvements. - **Update highly recommended.**
 
 = 1.0.0 =
 Plugin launch. Everything's new!
@@ -267,6 +290,7 @@ Enjoy using the Add-On *Toolbar Extras for MainWP*? **[Please consider making a 
 == My Other Plugins ==
 * [**Toolbar Extras for Elementor - WordPress Admin Bar Enhanced**](https://wordpress.org/plugins/toolbar-extras/)
 * [**Toolbar Extras for Oxygen Builder - Add-On plugin**](https://wordpress.org/plugins/toolbar-extras-oxygen/)
+* [**Toolbar Extras for Give Donations (GiveWP) - Add-On plugin**](https://wordpress.org/plugins/toolbar-extras-givewp/)
 * [**Builder Template Categories - for WordPress Page Builders**](https://wordpress.org/plugins/builder-template-categories/)
 * [**Polylang Connect for Elementor – Language Switcher & Template Tweaks**](https://wordpress.org/plugins/connect-polylang-elementor/)
 * [**Simple Download Manager for WP Document Revisions**](https://wordpress.org/plugins/wpdr-simple-downloads/)

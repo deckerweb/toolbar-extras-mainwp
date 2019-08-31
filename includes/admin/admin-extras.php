@@ -25,6 +25,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function ddw_tbexmwp_custom_settings_links( $action_links = [] ) {
 
+	$tbexmwp_links = array();
+	
 	/** Add settings link only if user can 'manage_options' */
 	if ( current_user_can( 'manage_options' ) ) {
 

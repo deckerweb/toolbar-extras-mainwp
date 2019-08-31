@@ -218,6 +218,7 @@ add_action( 'admin_bar_menu', 'ddw_tbexmwp_items_mainwp_updates', ddw_tbexmwp_it
  * @uses ddw_tbexmwp_display_component_items()
  * @uses ddw_tbex_item_title_with_settings_icon()
  * @uses ddw_tbexmwp_item_name()
+ * @uses ddw_tbexmwp_is_mainwp4()
  *
  * @global mixed $GLOBALS[ 'wp_admin_bar' ]
  */
@@ -268,7 +269,7 @@ function ddw_tbexmwp_items_mainwp_updates() {
 				'title'  => esc_attr__( 'Sync Child Sites', 'toolbar-extras-mainwp' ),
 				'href'   => '#',	// this is needed for the onclick event!
 				'meta'   => array(
-					'onclick' => 'mainwp_refresh_dashboard();',		// original JS function from MainWP!
+					'onclick' => ddw_tbexmwp_is_mainwp4() ? 'mainwp_sync_sites_data();' : 'mainwp_refresh_dashboard();',		// original JS functions from MainWP!
 					'target'  => '',
 					'title'   => esc_attr__( 'Sync Child Sites', 'toolbar-extras-mainwp' ),
 				)
@@ -282,12 +283,30 @@ function ddw_tbexmwp_items_mainwp_updates() {
 				'title'  => esc_attr__( 'Update Everything', 'toolbar-extras-mainwp' ),
 				'href'   => '#',	// this is needed for the onclick event!
 				'meta'   => array(
-					'onclick' => 'return rightnow_global_upgrade_all();',		// original JS function from MainWP!
+					'onclick' => ddw_tbexmwp_is_mainwp4() ? 'return updatesoverview_global_upgrade_all("all");' : 'return rightnow_global_upgrade_all();',		// original JS functions from MainWP!
 					'target'  => '',
 					'title'   => esc_attr__( 'Update Everything', 'toolbar-extras-mainwp' ),
 				)
 			)
 		);
+
+		if ( ddw_tbexmwp_is_mainwp4() ) {
+
+			$GLOBALS[ 'wp_admin_bar' ]->add_node(
+				array(
+					'id'     => 'tbexmwp-updates-all-wpcore',
+					'parent' => 'tbexmwp-updates',
+					'title'  => esc_attr__( 'Update All WP Core', 'toolbar-extras-mainwp' ),
+					'href'   => '#',	// this is needed for the onclick event!
+					'meta'   => array(
+						'onclick' => 'return updatesoverview_global_upgrade_all("plugins");',		// original JS function from MainWP!
+						'target'  => '',
+						'title'   => esc_attr__( 'Update All WordPress Core Versions', 'toolbar-extras-mainwp' ),
+					)
+				)
+			);
+
+		}  // end if
 
 		$GLOBALS[ 'wp_admin_bar' ]->add_node(
 			array(
@@ -296,7 +315,7 @@ function ddw_tbexmwp_items_mainwp_updates() {
 				'title'  => esc_attr__( 'Update All Plugins', 'toolbar-extras-mainwp' ),
 				'href'   => '#',	// this is needed for the onclick event!
 				'meta'   => array(
-					'onclick' => 'return rightnow_plugins_global_upgrade_all();',		// original JS function from MainWP!
+					'onclick' => ddw_tbexmwp_is_mainwp4() ? 'return updatesoverview_global_upgrade_all("plugins");' : 'return rightnow_plugins_global_upgrade_all();',		// original JS functions from MainWP!
 					'target'  => '',
 					'title'   => esc_attr__( 'Update All Plugins', 'toolbar-extras-mainwp' ),
 				)
@@ -310,7 +329,7 @@ function ddw_tbexmwp_items_mainwp_updates() {
 				'title'  => esc_attr__( 'Update All Themes', 'toolbar-extras-mainwp' ),
 				'href'   => '#',	// this is needed for the onclick event!
 				'meta'   => array(
-					'onclick' => 'return rightnow_themes_global_upgrade_all();',		// original JS function from MainWP!
+					'onclick' => ddw_tbexmwp_is_mainwp4() ? 'return updatesoverview_global_upgrade_all("themes");' : 'return rightnow_themes_global_upgrade_all();',		// original JS functions from MainWP!
 					'target'  => '',
 					'title'   => esc_attr__( 'Update All Themes', 'toolbar-extras-mainwp' ),
 				)
@@ -324,7 +343,7 @@ function ddw_tbexmwp_items_mainwp_updates() {
 				'title'  => esc_attr__( 'Update All Translations', 'toolbar-extras-mainwp' ),
 				'href'   => '#',	// this is needed for the onclick event!
 				'meta'   => array(
-					'onclick' => 'return rightnow_translations_global_upgrade_all();',		// original JS function from MainWP!
+					'onclick' => ddw_tbexmwp_is_mainwp4() ? 'return updatesoverview_global_upgrade_all("translations");' : 'return rightnow_translations_global_upgrade_all();',		// original JS functions from MainWP!
 					'target'  => '',
 					'title'   => esc_attr__( 'Update All Translations', 'toolbar-extras-mainwp' ),
 				)
@@ -1067,6 +1086,7 @@ add_action( 'admin_bar_menu', 'ddw_tbexmwp_items_mainwp_settings', ddw_tbexmwp_i
  * @uses ddw_tbex_item_title_with_settings_icon()
  * @uses ddw_tbexmwp_item_name()
  * @uses ddw_tbex_meta_target()
+ * @uses ddw_tbexmwp_is_mainwp3()
  *
  * @global mixed $GLOBALS[ 'wp_admin_bar' ]
  */
@@ -1110,18 +1130,23 @@ function ddw_tbexmwp_items_mainwp_settings() {
 			)
 		);
 
-		$GLOBALS[ 'wp_admin_bar' ]->add_node(
-			array(
-				'id'     => 'tbexmwp-settings-dashboard',
-				'parent' => 'tbexmwp-settings',
-				'title'  => esc_attr__( 'Dashboard Options', 'toolbar-extras-mainwp' ),
-				'href'   => esc_url( admin_url( 'admin.php?page=DashboardOptions' ) ),
-				'meta'   => array(
-					'target' => '',
+		/** MainWP 3.x only: Dashboard Options */
+		if ( ddw_tbexmwp_is_mainwp3() ) {
+
+			$GLOBALS[ 'wp_admin_bar' ]->add_node(
+				array(
+					'id'     => 'tbexmwp-settings-dashboard',
+					'parent' => 'tbexmwp-settings',
 					'title'  => esc_attr__( 'Dashboard Options', 'toolbar-extras-mainwp' ),
+					'href'   => esc_url( admin_url( 'admin.php?page=DashboardOptions' ) ),
+					'meta'   => array(
+						'target' => '',
+						'title'  => esc_attr__( 'Dashboard Options', 'toolbar-extras-mainwp' ),
+					)
 				)
-			)
-		);
+			);
+
+		}  // end if
 
 		$GLOBALS[ 'wp_admin_bar' ]->add_node(
 			array(

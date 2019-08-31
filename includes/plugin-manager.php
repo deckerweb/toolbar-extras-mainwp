@@ -85,7 +85,7 @@ function ddw_tbexmwp_plugin_manager_mainwp( $plugins ) {
 		array(
 			'name'    => _x( 'Activity Log for MainWP', 'Plugin Name', 'toolbar-extras-mainwp' ),
 			'slug'    => 'activity-log-mainwp',
-			'version' => '1.0.4+',
+			'version' => '1.0.5+',
 			'notice'  => array(
 				'message' => ddw_tbex_pm_badge( 'recommended' ) .
 					$for_mainwp .
@@ -96,7 +96,7 @@ function ddw_tbexmwp_plugin_manager_mainwp( $plugins ) {
 		array(
 			'name'    => _x( 'Disable Comments', 'Plugin Name', 'toolbar-extras-mainwp' ),
 			'slug'    => 'disable-comments',
-			'version' => '1.9.0+',
+			'version' => '1.10.2+',
 			'notice'  => array(
 				'message' => ddw_tbex_pm_badge( 'useful' ) .
 					ddw_tbex_pmstring_for( ddw_tbex_pmstring_for_general() ) .
@@ -107,7 +107,7 @@ function ddw_tbexmwp_plugin_manager_mainwp( $plugins ) {
 		array(
 			'name'    => _x( 'Members', 'Plugin Name', 'toolbar-extras-mainwp' ),
 			'slug'    => 'members',
-			'version' => '2.1.0+',
+			'version' => '2.2.0+',
 			'notice'  => array(
 				'message' => ddw_tbex_pm_badge( 'useful' ) .
 					ddw_tbex_pmstring_for( ddw_tbex_pmstring_for_general() ) .
@@ -118,7 +118,7 @@ function ddw_tbexmwp_plugin_manager_mainwp( $plugins ) {
 		array(
 			'name'    => _x( 'Limit Login Attempts Reloaded', 'Plugin Name', 'toolbar-extras-mainwp' ),
 			'slug'    => 'limit-login-attempts-reloaded',
-			'version' => '2.8.1+',
+			'version' => '2.9.0+',
 			'notice'  => array(
 				'message' => ddw_tbex_pm_badge( 'useful' ) .
 					ddw_tbex_pmstring_for( ddw_tbex_pmstring_for_general() ) .
