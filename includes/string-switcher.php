@@ -202,7 +202,8 @@ function ddw_tbexmwp_string_websites_with_counter() {
 		return;
 	}
 
-	$sites_count = absint( MainWP_DB::Instance()->getWebsitesCount() );
+	$sites_count = absint( \MainWP\Dashboard\MainWP_DB_Common::Instance()->get_websites_count() );
+//	$sites_count = absint( MainWP_DB::Instance()->getWebsitesCount() );
 
 	$title_websites = sprintf(
 		/* translators: %s - Count of Child Websites maintained in MainWP Dashboard */
