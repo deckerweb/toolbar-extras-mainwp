@@ -26,7 +26,8 @@ add_action( 'admin_bar_menu', 'ddw_tbexmwp_items_mainwp_groups', 20 );
 function ddw_tbexmwp_items_mainwp_groups() {
 
 	/** Get MainWP Groups */
-	$groups = MainWP_DB::Instance()->getGroupsForManageSites();
+	$groups = \MainWP\Dashboard\MainWP_DB_Common::Instance()->get_groups_for_manage_sites();
+//	$groups = MainWP_DB::Instance()->getGroupsForManageSites();
 
 	/** Bail early if no groups setup */
 	if ( is_null( $groups ) ) {
